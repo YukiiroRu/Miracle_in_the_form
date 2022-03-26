@@ -1,0 +1,342 @@
+################################################################################################################
+Release:
+# Файл „изменён“ - улучшен.
+Версия файла 3.0
+Автор улучшенной версии, Максим Райс.
+################################################################################################################
+________________________________________________________________________________________________________________
+# Звуки:--------------------------------------------------------------------------------------------------------
+                                                                                                              |#
+sfx_achievement                                      'Звук получения достижения.'                             |#
+                                                                                                              |#
+sfx_alisa_falls                                      'Шум, Алиса падает со вскриком.'                         |#
+sfx_alisa_falls_novoice                              'Алиса падает без вскрика.'                              |#
+sfx_alisa_lighter                                    'Алиса чиркает зажигалкой.'                              |#
+sfx_alisa_masha_enter                                'Алиса и Маша входят в комнату.'                         |#
+sfx_alisa_picklock                                   'Алиса ковыряет ключами.'                                |#
+                                                                                                              |#
+sfx_angry_ulyana                                     'Злая Ульяна, звук, как закипающий чайник.'              |#
+                                                                                                              |#
+sfx_armature_swish                                   'Взмах арматурой.'                                       |#
+                                                                                                              |#
+sfx_bed_squeak1                                      'Скрип кровати, 1.'                                      |#
+sfx_bed_squeak2                                      'Скрип кровати, 2.'                                      |#
+                                                                                                              |#
+sfx_blanket_off                                      'Прыжок на кровать, 1.'                                  |#
+sfx_blanket_off_stand                                'Падение на кровать, 2, больше шума.'                    |#
+                                                                                                              |#
+sfx_blow_out_candle                                  'Задувание свечи.'                                       |#
+                                                                                                              |#
+sfx_boat_impact                                      'Столкновение лодок.'                                    |#
+                                                                                                              |#
+sfx_body_bump                                        'Падение тела на пол.'                                   |#
+sfx_bodyfall_1                                       'Глухое падение.'                                        |#
+                                                                                                              |#
+sfx_bones_breaking                                   'Ломание костей.'                                        |#
+                                                                                                              |#
+sfx_borshtch                                         'Обливание супом.'                                       |#
+                                                                                                              |#
+sfx_brass_drop                                       'Падает что-то железное.'                                |#
+                                                                                                              |#
+sfx_break_cupboard                                   'Сломали что-то.'                                        |#
+sfx_break_flashlight                                 'Разбили фонарь.'                                        |#
+sfx_break_flashlight_alisa                           'Разбили фонарь, Алиса вскрикнула.'                      |#
+sfx_break_grid                                       'Ломание решётки.'                                       |#
+sfx_break_monitor                                    'Сломали мотор.'                                         |#
+                                                                                                              |#
+sfx_broken_dish                                      'Разбили стакан.'                                        |#
+                                                                                                              |#
+sfx_broom_sweep                                      'Подметают.'                                             |#
+                                                                                                              |#
+sfx_bus_honk                                         'Гудок машины.'                                          |#
+sfx_bus_idle                                         'Работающий мотор.'                                      |#
+sfx_bus_interior_moving                              'Семён едет в автобусе.'                                 |#
+sfx_bus_loop                                         'Звук мотора и скрип в салоне.'                          |#
+sfx_bus_out                                          'Автобус уехал.'                                         |#
+sfx_bus_stop                                         'Автобус остановился.'                                   |#
+sfx_bus_window_hit                                   'Удар по стеклу.'                                        |#
+                                                                                                              |#
+sfx_bush_body_fall                                   'Падение тела.'                                          |#
+sfx_bush_leaves                                      'Похож на шум сухих листьев.'                            |#
+                                                                                                              |#
+sfx_campus_door_rattle                               'Попытка открыть закрытую дверь.'                        |#
+                                                                                                              |#
+sfx_carousel_squeak                                  'Скрип заржавевшей решётки или двери.'                   |#
+                                                                                                              |#
+sfx_catgirl_hiss                                     'Шипение девочки кошки.'                                 |#
+                                                                                                              |#
+sfx_cellar_open                                      'Открытие шкафа.'                                        |#
+                                                                                                              |#
+sfx_cellular_phone_error                             'Смартфон, нет сигнала.'                                 |#
+                                                                                                              |#
+sfx_chair_fall                                       'Стул упал.'                                             |#
+                                                                                                              |#
+sfx_cigarette_pack_crumple                           'Скомкал сигареты.'                                      |#
+                                                                                                              |#
+sfx_clench2                                          'Похоже на звук какой-то кнопки.'                        |#
+                                                                                                              |#
+sfx_click_1                                          'Клик тихий.'                                            |#
+sfx_click_2                                          'Клик погромче.'                                         |#
+sfx_click_3                                          'Клик ещё погромче.'                                     |#
+                                                                                                              |#
+sfx_close_cabinet                                    'Закрытие двери аккуратное.'                             |#
+sfx_close_door_1                                     'Хлопок двери.'                                          |#
+sfx_close_door_campus_1                              'Закрытие двери более резкое.'                           |#
+sfx_close_door_clubs_nextroom                        'Звук закрытия двери например в подсобку.'               |#
+sfx_close_water_sink                                 'Завернул ручку крана.'                                  |#
+                                                                                                              |#
+sfx_computer_noise                                   'Шум системного блока.'                                  |#
+sfx_computer_screen_static                           'Звук монитора с помехами.'                              |#
+                                                                                                              |#
+sfx_concert_applause                                 'Аплодисменты.'                                          |#
+                                                                                                              |#
+sfx_cooking_eggs_1                                   'Разбивают и мешают яйца.'                               |#
+sfx_cooking_eggs_2                                   'Жарят яйца.'                                            |#
+                                                                                                              |#
+sfx_cooling_bus_motor                                'Работающий кондиционер и капли дождя по металлу.'       |#
+sfx_cooling_engine_loop                              'Капли дождя по дереву гулко.'                           |#
+                                                                                                              |#
+sfx_dinner_jingle_normal                             'Горн к еде музыкальный.'                                |#
+sfx_dinner_horn_processed                            'Горн к еде.'                                            |#
+sfx_dinner_jingle_speaker                            'Горн к еде музыкальный чуть приглушённый.'              |#
+sfx_dinner_jingle_speaker_tape                       'Стук по микрофону и музыкальный горн к еде.'            |#
+                                                                                                              |#
+sfx_door_bell                                        'Звонок в дверь.'                                        |#
+sfx_door_squeak_light                                'Скрип двери.'                                           |#
+                                                                                                              |#
+sfx_draw_water                                       'Намочили водой.'                                        |#
+                                                                                                              |#
+sfx_drawer_rattle                                    'Шум закрытия тумбочки.'                                 |#
+                                                                                                              |#
+sfx_drop_alisa_bag                                   'Алиса бросает сумку.'                                   |#
+sfx_drop_pipe                                        'Бросили трубу.'                                         |#
+sfx_dropped_chair                                    'Уронили стул.'                                          |#
+                                                                                                              |#
+sfx_eat_apple                                        'Ест яблоко.'                                            |#
+                                                                                                              |#
+sfx_energy_door_bus                                  'Удар током и падение.'                                  |#
+                                                                                                              |#
+sfx_face_slap                                        'Пощёчина.'                                              |#
+                                                                                                              |#
+sfx_fall_grass                                       'Упал на траву.'                                         |#
+sfx_fall_metal_door                                  'Падение металлической двери.'                           |#
+sfx_fall_wood_floor                                  'Приглушённое падение на пол.'                           |#
+                                                                                                              |#
+sfx_far_steps                                        'Шаги удаляются.'                                        |#
+                                                                                                              |#
+sfx_forest_fireplace                                 'Звук костра.'                                           |#
+                                                                                                              |#
+sfx_ghost_children_laugh                             'Стрёмный детский смех.'                                 |#
+                                                                                                              |#
+sfx_grate_hand_fall                                  'Удар по решётке.'                                       |#
+sfx_grate_open_hand                                  'Удар по решётке и её открытие.'                         |#
+                                                                                                              |#
+sfx_gusty_wind                                       'Шум ветра.'                                             |#
+                                                                                                              |#
+sfx_hatch_drop                                       'Падение топора.'                                        |#
+                                                                                                              |#
+sfx_head_explode                                     'Взрывающиеся кишки.'                                    |#
+sfx_head_heartbeat                                   'Стук сердца.'                                           |#
+                                                                                                              |#
+sfx_hell_alarm_clock                                 'Звук будильника.'                                       |#
+sfx_hell_crickets_1                                  'Кузнечики.'                                             |#
+sfx_hell_crickets_2                                  'Кузнечики более чёткое и частое.'                       |#
+sfx_hell_crickets_3                                  'Кузнечики частое.'                                      |#
+sfx_hell_crickets_3                                  'Кузнечик громкий.'                                      |#
+                                                                                                              |#
+sfx_hiding_in_bush                                   'Шум в кустах.'                                          |#
+                                                                                                              |#
+sfx_home_phone_break                                 'Сломал телефон.'                                        |#
+sfx_home_phone_ring                                  'Звонок телефона.'                                       |#
+sfx_home_phone_take                                  'Взял телефон.'                                          |#
+                                                                                                              |#
+sfx_ignite_torch                                     'Поджигание факела.'                                     |#
+                                                                                                              |#
+sfx_ikarus_arrive                                    'Прибытие Икаруса.'                                      |#
+sfx_ikarus_open_doors                                'Икарус открыл двери.'                                   |#
+                                                                                                              |#
+sfx_inhale                                           'Тяжёлый вдох.'                                          |#
+                                                                                                              |#
+sfx_insert_crowbar_door                              'Звук ломика о железную дверь.'                          |#
+                                                                                                              |#
+sfx_intro_bus_door_open                              'Открытие дверей в автобусе (пролог).'                   |#
+sfx_intro_bus_engine_loop                            'Звук двигателя.'                                        |#
+sfx_intro_bus_engine_start                           'Звук приближающегося автобуса.'                         |#
+sfx_intro_bus_stop_sigh                              'Как будто попал в ужастик.'                             |#
+sfx_intro_bus_stop_steps                             'Звук шагов по снегу и шум проезжающей машины.'          |#
+sfx_intro_bus_transition                             'Когда Семён увидел, что он летом.'                      |#
+                                                                                                              |#
+sfx_jump_into_hole                                   'Похоже на jump_into_hole_2.'                            |#
+sfx_jump_into_hole_2                                 'Прыжок в дыру.'                                         |#
+sfx_jump_over_hole                                   'Прыжок через дыру.'                                     |#
+                                                                                                              |#
+sfx_key_drawer                                       'Открытие ящика стола и его закрытие.'                   |#
+                                                                                                              |#
+sfx_keyboard_mouse                                   'Клавиатура и мышь.'                                     |#
+sfx_keyboard_mouse_computer_noise                    'Клавиатура и мышь, плюс шум компа.'                     |#
+                                                                                                              |#
+sfx_keys_rattle                                      'Связка ключей.'                                         |#
+                                                                                                              |#
+sfx_knock_door_closed_hard1                          'Дёрганье двери.'                                        |#
+sfx_knock_door_closed_hard2                          'Дёрганье двери дольше.'                                 |#
+sfx_knock_door2                                      'Стук в дверь.'                                          |#
+sfx_knock_door3_dull                                 'Глухой стук в дверь.'                                   |#
+sfx_knock_door6_closed                               'Попытка открыть закрытую дверь.'                        |#
+sfx_knock_door7_polite                               'Стук в дверь вежливый.'                                 |#
+sfx_knock_glass                                      'Стук в окно.'                                           |#
+                                                                                                              |#
+sfx_knocking_door_2                                  'Стук в дверь.'                                          |#
+sfx_knocking_door_outside                            'Стук в дверь снаружи.'                                  |#
+                                                                                                              |#
+sfx_konami_off                                       'Звук выключения игровой приставки.'                     |#
+sfx_konami_on                                        'Звук включения игровой приставки.'                      |#
+                                                                                                              |#
+sfx_lena_hits_alisa                                  'Лена ударила Алису.'                                    |#
+sfx_lena_plays_tennis_fail                           'Лена играет в теннис.'                                  |#
+                                                                                                              |#
+sfx_light_candle                                     'Зажигание свечи зажигалкой.'                            |#
+                                                                                                              |#
+sfx_lock_click                                       'Звук запирания замка.'                                  |#
+sfx_lock_close                                       'Звук запирания близко.'                                 |#
+sfx_lock_open                                        'Звук открывания замка.'                                 |#
+sfx_lock_open_close_1                                'Звук открывания замка близко.'                          |#
+                                                                                                              |#
+sfx_match_candle                                     'Зажигание свечи спичкой.'                               |#
+                                                                                                              |#
+sfx_medpunkt_door_open                               'Открытие двери в мед пункт.'                            |#
+                                                                                                              |#
+sfx_menu_gate                                        'Скрип калитки (из главного меню).'                      |#
+                                                                                                              |#
+sfx_metal_door_handle_rattle                         'Звук металлической двери.'                              |#
+sfx_metal_door_heavy_close                           'Звук захлопывания массивной двери.'                     |#
+sfx_metal_door_large_close_basement                  'Звук закрытия чего-то металлического, громко.'          |#
+                                                                                                              |#
+sfx_miku_song_learn1                                 'Мику играет на гитаре.'                                 |#
+sfx_miku_song_learn2                                 'Семён играет на гитаре.'                                |#
+                                                                                                              |#
+sfx_muffled_explosion                                'Взрыв вдалеке.'                                         |#
+                                                                                                              |#
+sfx_mystery_movement                                 'Звук закрытия двери.'                                   |#
+                                                                                                              |#
+sfx_nightmare_explosion                              'Взрыв близко громко.'                                   |#
+sfx_nightmare_underground_rumble                     'Взрыв с обвалом.'                                       |#
+                                                                                                              |#
+sfx_open_cabinet_1                                   'Открытие двери 1.'                                      |#
+sfx_open_cabinet_2                                   'Открытие двери 2.'                                      |#
+sfx_open_cupboard                                    'Открытие двери, со скрипом.'                            |#
+sfx_open_dooor_campus_1                              'Открытие двери в домик Ольги 1.'                        |#
+sfx_open_dooor_campus_2                              'Открытие двери в домик Ольги 2.'                        |#
+sfx_open_door_1                                      'Открытие двери быстрое.'                                |#
+sfx_open_door_2                                      'Открытие двери длиннее со скрипом.'                     |#
+sfx_open_door_clubs                                  'Открытие двери в клубы, быстрое.'                       |#
+sfx_open_door_clubs_2                                'Открытие двери в клубы, со скрипом.'                    |#
+sfx_open_door_clubs_nextroom                         'Открытие двери в клубы, приглушённое.'                  |#
+sfx_open_door_kick                                   'Открытие двери с пинка.'                                |#
+sfx_open_door_mines                                  'Открытие двери с эхом.'                                 |#
+sfx_open_door_mines_metal                            'Открытие двери металлической.'                          |#
+sfx_open_door_squeak_2                               'Скрип двери.'                                           |#
+sfx_open_door_strong                                 'Открытие двери резко.'                                  |#
+sfx_open_drapes                                      'Открытие штор.'                                         |#
+sfx_open_journal                                     'Листают журнал.'                                        |#
+sfx_open_metal_door                                  'Открытие двери металлической.'                          |#
+sfx_open_metal_hatch                                 'Открытие двери металлической, со скрипом.'              |#
+sfx_open_table                                       'Открытие ящика стола.'                                  |#
+sfx_open_water_sink                                  'Открытие раковины.'                                     |#
+sfx_open_window                                      'Открытие окна.'                                         |#
+                                                                                                              |#
+sfx_owl_far                                          'Шум совы.'                                              |#
+                                                                                                              |#
+sfx_paper_bag                                        'Комкание бумаги.'                                       |#
+                                                                                                              |#
+sfx_pat_shoulder_hard                                'Удар по плечу.'                                         |#
+                                                                                                              |#
+sfx_piano_head_bump                                  'Удар головой, об пианино.'                              |#
+                                                                                                              |#
+sfx_punch_medium                                     'Удар по плечу.'                                         |#
+sfx_punch_washstand                                  'Удар по лицу сильный.'                                  |#
+                                                                                                              |#
+sfx_put_sugar_cart                                   'Погрузил сахар в телегу.'                               |#
+                                                                                                              |#
+sfx_radio_squelch_1                                  'Шум поиска по радио.'                                   |#
+sfx_radio_squelch_2                                  'Шум поиска по радио дольше.'                            |#
+sfx_radio_tune                                       'Шум меняющих друг-друга радио станций.'                 |#
+                                                                                                              |#
+sfx_rowboat_loop                                     'Лодка плывёт по озеру.'                                 |#
+                                                                                                              |#
+sfx_run_forest                                       'Шаги, убегающие.'                                       |#
+                                                                                                              |#
+sfx_salt_impact                                      'Ложкой по столу.'                                       |#
+                                                                                                              |#
+sfx_scary_sting                                      'Рена.'                                                  |#
+                                                                                                              |#
+sfx_scoop_water_cup                                  'Кружку наполняют водой из бочки.'                       |#
+                                                                                                              |#
+sfx_shoulder_dive_water                              'Что-то упало под воду.'                                 |#
+                                                                                                              |#
+sfx_shurik_mines_far                                 'Шаги в шахте далеко.'                                   |#
+sfx_shurik_opens_door                                'Открытие деревянной двери, с эхо.'                      |#
+sfx_shurik_snore                                     'Шурик храпит.'                                          |#
+                                                                                                              |#
+sfx_signal_pistol                                    'Шум сигнального пистолета.'                             |#
+                                                                                                              |#
+sfx_simon_applause                                   'Хлопки.'                                                |#
+sfx_simon_fall_1                                     'Шум проваливающейся земли.'                             |#
+sfx_simon_fall_2                                     'Шум проваливающейся земли и что-то упало.'              |#
+                                                                                                              |#
+sfx_slam_door_campus                                 'Хлопок дверью.'                                         |#
+                                                                                                              |#
+sfx_slavya_gets_out                                  'Славя выходит.'                                         |#
+sfx_slavya_run                                       'Славя бежит.'                                           |#
+                                                                                                              |#
+sfx_soccer_ball_catch                                'Удар по мячу и его поймали.'                            |#
+sfx_soccer_ball_gate                                 'Удар по мячу в ворота.'                                 |#
+sfx_soccer_ball_kick                                 'Удар по мячу.'                                          |#
+                                                                                                              |#
+sfx_steps_clubs_nextroom                             'Шаги по ступенькам.'                                    |#
+                                                                                                              |#
+sfx_stomach_growl                                    'Урчание в животе.'                                      |#
+                                                                                                              |#
+sfx_street_traffic_outside                           'Шум машин в городе.'                                    |#
+                                                                                                              |#
+sfx_suspence_bang                                    'Неожиданный поворот.'                                   |#
+                                                                                                              |#
+sfx_swimming                                         'Кто-то плавает.'                                        |#
+                                                                                                              |#
+sfx_table_hit                                        'Удар по столу.'                                         |#
+                                                                                                              |#
+sfx_tennis_serve_1                                   'Игра в теннис 1.'                                       |#
+sfx_tennis_serve_2                                   'Игра в теннис 2.'                                       |#
+                                                                                                              |#
+sfx_terminator                                       'Музыка из Терминатора.'                                 |#
+sfx_terminator_parody                                'Пародия, на музыку из Терминатора.'                     |#
+                                                                                                              |#
+sfx_throw_compote                                    'Облили компотом.'                                       |#
+                                                                                                              |#
+sfx_thunder_crack                                    'Гром.'                                                  |#
+sfx_thunder_rumble                                   'Гром в дали.'                                           |#
+sfx_thunder_wood                                     'Гром близко и громко.'                                  |#
+                                                                                                              |#
+sfx_torch                                            'Звук горения факела.'                                   |#
+                                                                                                              |#
+sfx_tree_branches                                    'Шелест листьев.'                                        |#
+                                                                                                              |#
+sfx_uliana_jumps_down                                'Ульяна спрыгнула вниз.'                                 |#
+                                                                                                              |#
+sfx_underwater_dive                                  'Звук подводных гребков.'                                |#
+                                                                                                              |#
+sfx_unlock_door_campus                               'Открытие двери в домик Ольги, ключом.'                  |#
+sfx_unlock_medpunkt_door                             'Открытие двери в медпункт, ключом.'                     |#
+                                                                                                              |#
+sfx_unzip_sleepbag                                   'Звук расстёгивания молнии.'                             |#
+                                                                                                              |#
+sfx_water_emerge                                     'Кто-то воду разгребает.'                                |#
+sfx_water_sink_stream                                'Вода льётся из крана.'                                  |#
+sfx_water_splash                                     'Облили водой.'                                          |#
+                                                                                                              |#
+sfx_wind_gust                                        'Шум ветра стрёмный.'                                    |#
+                                                                                                              |#
+sfx_wood_floor_squeak                                'Скрип пола.'                                            |#
+sfx_wood_friction                                    'Трение одной палки о другую.'                           |#
+________________________________________________________________________________________________________________
+
+# чт,10/февраля/2022., 02:20 AM., Закончен.

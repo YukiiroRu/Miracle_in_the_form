@@ -1,0 +1,86 @@
+###############################################################################################
+Release:
+# Файл „изменён“ - улучшен.
+Версия файла 3.0
+Автор улучшенной версии, Максим Райс.
+###############################################################################################
+_______________________________________________________________________________________________
+# Список эмбиенсов:----------------------------------------------------------------------------
+                                                                                             |#
+# Лодочная станция.                                                                          |#
+ambience_boat_station_day            'Шум воды у лодочной станции, день.'                    |#
+ambience_boat_station_night          'Ночь.'                                                 |#
+                                                                                             |#
+# Шумы в лагере.                                                                             |#
+ambience_camp_center_day             'Пение птиц, день.'                                     |#
+ambience_camp_center_evening         'Пение птиц и кукушка вдалеке.'                         |#
+ambience_camp_center_night           'Кузнечики, ночь.'                                      |#
+                                                                                             |#
+ambience_camp_entrance_day           'Шум в лагере, день.'                                   |#
+ambience_camp_entrance_day_people    'День 2.'                                               |#
+ambience_camp_entrance_evening       'Шум в лагере с цикадой.'                               |#
+ambience_camp_entrance_night         'Шум в лагере с шагами, и вдалеке гроза.'               |#
+                                                                                             |#
+# Шум катакомб.                                                                              |#
+ambience_catacombs                   'Эхо в катакомбах.'                                     |#
+ambience_catacombs_stones            'С падением камней и страшней.'                         |#
+                                                                                             |#
+# Звуки в клубе.                                                                             |#
+ambience_clubs_inside_day            'Радио клуб.'                                           |#
+                                                                                             |#
+# Ветер на улице.                                                                            |#
+ambience_cold_wind_loop              'Ветер.'                                                |#
+                                                                                             |#
+# Голоса птиц.                                                                               |#
+ambience_day_countryside_ambience    'Пение птиц.'                                           |#
+                                                                                             |#
+# Шумы в столовой.                                                                           |#
+ambience_dining_hall_empty           'Шум в столовой.'                                       |#
+ambience_dining_hall_full            'Полная столовая.'                                      |#
+                                                                                             |#
+# Шумы у дороги.                                                                             |#
+ambience_ext_road_day                'Шум у дороги, день.'                                   |#
+ambience_ext_road_evening            'С цикадой.'                                            |#
+ambience_ext_road_night              'Ночь.'                                                 |#
+                                                                                             |#
+# Голоса птиц в лесу.                                                                        |#
+ambience_forest_day                  'Птицы в лесу, день.'                                   |#
+ambience_forest_evening              'Птицы в лесу 2.'                                       |#
+ambience_forest_night                'Птицы и насекомые в лесу, ночь.'                       |#
+                                                                                             |#
+# Звуки насекомых.                                                                           |#
+ambience_grasshoper_clean            'Насекомые.'                                            |#
+                                                                                             |#
+# Подходит для медпункта.                                                                    |#
+ambience_int_cabin_day               'Часы и птицы, день.'                                   |#
+ambience_int_cabin_evening           'Часы и птицы 2.'                                       |#
+ambience_int_cabin_night             'Часы и кузнечики, ночь.'                               |#
+                                                                                             |#
+# Шум реки.                                                                                  |#
+ambience_lake_shore_day              'Шум реки, и птицы, день.'                              |#
+ambience_lake_shore_evening          'Шум реки, и насекомых.'                                |#
+ambience_lake_shore_night            'Шум реки, и насекомых, ночь.'                          |#
+                                                                                             |#
+# Звуки в библиотеке.                                                                        |#
+ambience_library_day                 'Листание книг в библиотеке.'                           |#
+                                                                                             |#
+# Звуки разговоров.                                                                          |#
+ambience_medium_crowd_indoors_1      'Шум разговоров громко.'                                |#
+ambience_medium_crowd_outdoors       'Тише.'                                                 |#
+                                                                                             |#
+# Звуки в медпункте.                                                                         |#
+ambience_medstation_inside_day       'Часы в медпункте и птицы, день.'                       |#
+ambience_medstation_inside_night     'Часы в медпункте, ночь.'                               |#
+                                                                                             |#
+# Музыкальный клуб.                                                                          |#
+ambience_music_club_day              'Часы в музыкальном клубе и птицы, день.'               |#
+ambience_music_club_night            'Часы в музыкальном клубе и насекомые, ночь.'           |#
+                                                                                             |#
+# Звуки насекомых и птиц.                                                                    |#
+ambience_old_camp_outside            'Насекомые, ворона, страшно.'                           |#
+                                                                                             |#
+# Игра в футбол.                                                                             |#
+ambience_soccer_play_background      'Игра в футбол.'                                        |#
+______________________________________________________________________________________________
+
+# пн,07/февраля/2022., 08:42 AM., Закончен.

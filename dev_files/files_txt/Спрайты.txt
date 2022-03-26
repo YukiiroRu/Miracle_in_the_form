@@ -1,0 +1,1347 @@
+################################################################################################################
+Release:
+# Файл „изменён“ - улучшен.
+Версия файла 2.1
+Автор улучшенной версии, Максим Райс.
+################################################################################################################
+________________________________________________________________________________________________________________
+# Виола:------------------------------------------------------------|#
+cs normal              'Виола обычная.'                             |#
+cs normal close        'Близко.'                                    |#
+cs normal far          'Далеко.'                                    |#
+cs normal glasses          'С очками.'                              |#
+cs normal glasses close    'Близко.'                                |# [Виола обычная]
+cs normal glasses far      'Далеко.'                                |#
+cs normal stethoscope          'Со стетоскопом.'                    |#
+cs normal stethoscope close    'Близко.'                            |#
+cs normal stethoscope far      'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+cs shy                 'Виола застенчивая.'                         |#
+cs shy close           'Близко.'                                    |#
+cs shy far             'Далеко.'                                    |#
+cs shy glasses             'С очками.'                              |#
+cs shy glasses close       'Близко.'                                |# [Виола застенчивая]
+cs shy glasses far         'Далеко.'                                |#
+cs shy stethoscope             'Со стетоскопом.'                    |#
+cs shy stethoscope close       'Близко.'                            |#
+cs shy stethoscope far         'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+cs smile               'Виола улыбка.'                              |#
+cs smile close         'Близко.'                                    |#
+cs smile far           'Далеко.'                                    |#
+cs smile glasses           'С очками.'                              |#
+cs smile glasses close     'Близко.'                                |# [Виола улыбка]
+cs smile glasses far       'Далеко.'                                |#
+cs smile stethoscope           'Со стетоскопом.'                    |#
+cs smile stethoscope close     'Близко.'                            |#
+cs smile stethoscope far       'Далеко.'                            |#
+________________________________________________________________________________________________________________
+# Алиса:------------------------------------------------------------|#
+dv angry body          'Алиса злая голая.'                          |#
+dv angry body close    'Близко.'                                    |#
+dv angry pioneer           'В форме.'                               |#
+dv angry pioneer close     'Близко.'                                |# [Алиса злая]
+dv angry pioneer far       'Далеко.'                                |#
+dv angry pioneer2              'В форме завязанной.'                |#
+dv angry pioneer2 close        'Близко.'                            |#
+dv angry pioneer2 far          'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+dv cry body            'Алиса плачет голая.'                        |#
+dv cry body close      'Близко.'                                    |#
+dv cry pioneer             'В форме.'                               |#
+dv cry pioneer close       'Близко.'                                |#
+dv cry pioneer far         'Далеко.'                                |#
+dv cry pioneer2                'В форме завязанной.'                |# [Алиса плачет]
+dv cry pioneer2 close          'Близко.'                            |#
+dv cry pioneer2 far            'Далеко.'                            |#
+dv cry swim                        'В купальнике.'                  |#
+dv cry swim close                  'Близко.'                        |#
+dv cry swim far                    'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv grin body           'Алиса ухмыляется голая.'                    |#
+dv grin body close     'Близко.'                                    |#
+dv grin pioneer            'В форме.'                               |#
+dv grin pioneer close      'Близко.'                                |#
+dv grin pioneer far        'Далеко.'                                |#
+dv grin pioneer2               'В форме завязанной.'                |# [Алиса ухмыляется]
+dv grin pioneer2 close         'Близко.'                            |#
+dv grin pioneer2 far           'Далеко.'                            |#
+dv grin swim                       'В купальнике.'                  |#
+dv grin swim close                 'Близко.'                        |#
+dv grin swim far                   'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv guilty body         'Алиса виноватая голая.'                     |#
+dv guilty body close   'Близко.'                                    |#
+dv guilty pioneer          'В форме.'                               |#
+dv guilty pioneer close    'Близко.'                                |# [Алиса виноватая]
+dv guilty pioneer far      'Далеко.'                                |#
+dv guilty pioneer2             'В форме завязанной.'                |#
+dv guilty pioneer2 close       'Близко.'                            |#
+dv guilty pioneer2 far         'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+dv laugh body          'Алиса смеётся голая.'                       |#
+dv laugh body close    'Близко.'                                    |#
+dv laugh pioneer           'В форме.'                               |#
+dv laugh pioneer close     'Близко.'                                |#
+dv laugh pioneer far       'Далеко.'                                |#
+dv laugh pioneer2              'В форме завязанной.'                |# [Алиса смеётся]
+dv laugh pioneer2 close        'Близко.'                            |#
+dv laugh pioneer2 far          'Далеко.'                            |#
+dv laugh swim                      'В купальнике.'                  |#
+dv laugh swim close                'Близко.'                        |#
+dv laugh swim far                  'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv normal body         'Алиса обычная голая.'                       |#
+dv normal body close   'Близко.'                                    |#
+dv normal pioneer          'В форме.'                               |#
+dv normal pioneer close    'Близко.'                                |#
+dv normal pioneer far      'Далеко.'                                |#
+dv normal pioneer2             'В форме завязанной.'                |# [Алиса обычная]
+dv normal pioneer2 close       'Близко.'                            |#
+dv normal pioneer2 far         'Далеко.'                            |#
+dv normal swim                     'В купальнике.'                  |#
+dv normal swim close               'Близко.'                        |#
+dv normal swim far                 'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv rage body           'Алиса в ярости голая.'                      |#
+dv rage body close     'Близко.'                                    |#
+dv rage pioneer            'В форме.'                               |#
+dv rage pioneer close      'Близко.'                                |# [Алиса в ярости]
+dv rage pioneer far        'Далеко.'                                |#
+dv rage pioneer2               'В форме завязанной.'                |#
+dv rage pioneer2 close         'Близко.'                            |#
+dv rage pioneer2 far           'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+dv sad body            'Алиса грустная голая.'                      |#
+dv sad body close      'Близко.'                                    |#
+dv sad pioneer             'В форме.'                               |#
+dv sad pioneer close       'Близко.'                                |# [Алиса грустная]
+dv sad pioneer far         'Далеко.'                                |#
+dv sad pioneer2                'В форме завязанной.'                |#
+dv sad pioneer2 close          'Близко.'                            |#
+dv sad pioneer2 far            'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+dv scared body         'Алиса испуганная голая.'                    |#
+dv scared body close   'Близко.'                                    |#
+dv scared pioneer          'В форме.'                               |#
+dv scared pioneer close    'Близко.'                                |#
+dv scared pioneer far      'Далеко.'                                |#
+dv scared pioneer2             'В форме завязанной.'                |# [Алиса испуганная]
+dv scared pioneer2 close       'Близко.'                            |#
+dv scared pioneer2 far         'Далеко.'                            |#
+dv scared swim                     'В купальнике.'                  |#
+dv scared swim close               'Близко.'                        |#
+dv scared swim far                 'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv shocked body        'Алиса шокированная голая.'                  |#
+dv shocked body close  'Близко.'                                    |#
+dv shocked pioneer         'В форме.'                               |#
+dv shocked pioneer close   'Близко.'                                |#
+dv shocked pioneer far     'Далеко.'                                |#
+dv shocked pioneer2            'В форме завязанной.'                |# [Алиса шокированная]
+dv shocked pioneer2 close      'Близко.'                            |#
+dv shocked pioneer2 far        'Далеко.'                            |#
+dv shocked swim                    'В купальнике.'                  |#
+dv shocked swim close              'Близко.'                        |#
+dv shocked swim far                'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv shy body            'Алиса застенчивая голая.'                   |#
+dv shy body close      'Близко.'                                    |#
+dv shy pioneer              'В форме.'                              |#
+dv shy pioneer close        'Близко.'                               |# [Алиса застенчивая]
+dv shy pioneer far          'Далеко.'                               |#
+dv shy pioneer2                'В форме завязанной.'                |#
+dv shy pioneer2 close          'Близко.'                            |#
+dv shy pioneer2 far            'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+dv smile body          'Алиса улыбка голая.'                        |#
+dv smile body close    'Близко.'                                    |#
+dv smile pioneer           'В форме.'                               |#
+dv smile pioneer close     'Близко.'                                |#
+dv smile pioneer far       'Далеко.'                                |#
+dv smile pioneer2              'В форме завязанной.'                |# [Алиса улыбка]
+dv smile pioneer2 close        'Близко.'                            |#
+dv smile pioneer2 far          'Далеко.'                            |#
+dv smile swim                      'В купальнике.'                  |#
+dv smile swim close                'Близко.'                        |#
+dv smile swim far                  'Далеко.'                        |#
+----------------------------------------------------------------------------------------------------------------
+dv surprise body       'Алиса удивлённая голая.'                    |#
+dv surprise body close 'Близко.'                                    |#
+dv surprise pioneer        'В форме.'                               |#
+dv surprise pioneer close  'Близко.'                                |#
+dv surprise pioneer far    'Далеко.'                                |#
+dv surprise pioneer2           'В форме завязанной.'                |# [Алиса удивлённая]
+dv surprise pioneer2 close     'Близко.'                            |#
+dv surprise pioneer2 far       'Далеко.'                            |#
+dv surprise swim                   'В купальнике.'                  |#
+dv surprise swim close             'Близко.'                        |#
+dv surprise swim far               'Далеко.'                        |#
+________________________________________________________________________________________________________________
+# Электроник:-------------------------------------------------------|#
+el angry pioneer           'Электроник в форме злой.'               |#
+el angry pioneer close     'Близко.'                                |# [Электроник злой]
+el angry pioneer far       'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el fingal pioneer          'Электроник в форме с синяком.'          |#
+el fingal pioneer close    'Близко.'                                |# [Электроник с синяком]
+el fingal pioneer far      'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el grin pioneer            'Электроник в форме ухмыляется.'         |#
+el grin pioneer close      'Близко.'                                |# [Электроник ухмыляется]
+el grin pioneer far        'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el laugh pioneer           'Электроник в форме смеётся.'            |#
+el laugh pioneer close     'Близко.'                                |# [Электроник смеётся]
+el laugh pioneer far       'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el normal pioneer          'Электроник в форме обычный.'            |#
+el normal pioneer close    'Близко.'                                |# [Электроник обычный]
+el normal pioneer far      'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el sad pioneer             'Электроник в форме печальный.'          |#
+el sad pioneer close       'Близко.'                                |# [Электроник печальный]
+el sad pioneer far         'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el scared pioneer          'Электроник в форме напуганный.'         |#
+el scared pioneer close    'Близко.'                                |# [Электроник напуганный]
+el scared pioneer far      'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el serious pioneer         'Электроник в форме серьёзный.'          |#
+el serious pioneer close   'Близко.'                                |# [Электроник серьёзный]
+el serious pioneer far     'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el shocked pioneer         'Электроник в форме шокированный.'       |#
+el shocked pioneer close   'Близко.'                                |# [Электроник шокированный]
+el shocked pioneer far     'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el smile pioneer           'Электроник в форме улыбка.'             |#
+el smile pioneer close     'Близко.'                                |# [Электроник улыбка]
+el smile pioneer far       'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el surprise pioneer        'Электроник в форме удивлённый.'         |#
+el surprise pioneer close  'Близко.'                                |# [Электроник удивлённый]
+el surprise pioneer far    'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+el upset pioneer           'Электроник в форме расстроенный.'       |#
+el upset pioneer close     'Близко.'                                |# [Электроник расстроенный]
+el upset pioneer far       'Далеко.'                                |#
+________________________________________________________________________________________________________________
+# Мику:-------------------------------------------------------------|#
+mi angry pioneer           'Мику злая в форме.'                     |#
+mi angry pioneer close     'Близко.'                                |#
+mi angry pioneer far       'Далеко.'                                |# [Мику злая]
+mi angry swim                  'В купальнике.'                      |#
+mi angry swim close            'Близко.'                            |#
+mi angry swim far              'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi cry pioneer             'Мику плачет в форме.'                   |#
+mi cry pioneer close       'Близко.'                                |#
+mi cry pioneer far         'Далеко.'                                |# [Мику плачет]
+mi cry swim                    'В купальнике.'                      |#
+mi cry swim close              'Близко.'                            |#
+mi cry swim far                'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi cry_smile pioneer       'Мику улыбка со слезами в форме.'        |#
+mi cry_smile pioneer close 'Близко.'                                |#
+mi cry_smile pioneer far   'Далеко.'                                |# [Мику улыбка со слезами]
+mi cry_smile swim              'В купальнике.'                      |#
+mi cry_smile swim close        'Близко.'                            |#
+mi cry_smile swim far          'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi dontlike pioneer        'Мику недовольная в форме.'              |#
+mi dontlike pioneer close  'Близко.'                                |#
+mi dontlike pioneer far    'Далеко.'                                |# [Мику недовольная]
+mi dontlike swim               'В купальнике.'                      |#
+mi dontlike swim close         'Близко.'                            |#
+mi dontlike swim far           'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi grin pioneer            'Мику ухмыляется в форме.'               |#
+mi grin pioneer close      'Близко.'                                |#
+mi grin pioneer far        'Далеко.'                                |# [Мику ухмыляется]
+mi grin swim                   'В купальнике.'                      |#
+mi grin swim close             'Близко.'                            |#
+mi grin swim far               'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi happy pioneer           'Мику счастливая в форме.'               |#
+mi happy pioneer close     'Близко.'                                |#
+mi happy pioneer far       'Далеко.'                                |# [Мику счастливая]
+mi happy swim                  'В купальнике.'                      |#
+mi happy swim close            'Близко.'                            |#
+mi happy swim far              'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi laugh pioneer           'Мику смеётся в форме.'                  |#
+mi laugh pioneer close     'Близко.'                                |#
+mi laugh pioneer far       'Далеко.'                                |# [Мику смеётся]
+mi laugh swim                  'В купальнике.'                      |#
+mi laugh swim close            'Близко.'                            |#
+mi laugh swim far              'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi normal pioneer          'Мику обычная в форме.'                  |#
+mi normal pioneer close    'Близко.'                                |#
+mi normal pioneer far      'Далеко.'                                |# [Мику обычная]
+mi normal swim                 'В купальнике.'                      |#
+mi normal swim close           'Близко.'                            |#
+mi normal swim far             'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi rage pioneer            'Мику в ярости.'                         |#
+mi rage pioneer close      'Близко.'                                |#
+mi rage pioneer far        'Далеко.'                                |# [Мику в ярости]
+mi rage swim                   'В купальнике.'                      |#
+mi rage swim close             'Близко.'                            |#
+mi rage swim far               'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi sad pioneer             'Мику печальная в форме.'                |#
+mi sad pioneer close       'Близко.'                                |#
+mi sad pioneer far         'Далеко.'                                |# [Мику печальная]
+mi sad swim                    'В купальнике.'                      |#
+mi sad swim close              'Близко.'                            |#
+mi sad swim far                'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi scared pioneer          'Мику испуганная в форме.'               |#
+mi scared pioneer close    'Близко.'                                |#
+mi scared pioneer far      'Далеко.'                                |# [Мику испуганная]
+mi scared swim                 'В купальнике.'                      |#
+mi scared swim close           'Близко.'                            |#
+mi scared swim far             'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi serious pioneer         'Мику серьёзная в форме.'                |#
+mi serious pioneer close   'Близко.'                                |#
+mi serious pioneer far     'Далеко.'                                |# [Мику серьёзная]
+mi serious swim                'В купальнике.'                      |#
+mi serious swim close          'Близко.'                            |#
+mi serious swim far            'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi shocked pioneer         'Мику шокированная в форме.'             |#
+mi shocked pioneer close   'Близко.'                                |#
+mi shocked pioneer far     'Далеко.'                                |# [Мику шокированная]
+mi shocked swim                'В купальнике.'                      |#
+mi shocked swim close          'Близко.'                            |#
+mi shocked swim far            'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi shy pioneer             'Мику застенчивая в форме.'              |#
+mi shy pioneer close       'Близко.'                                |#
+mi shy pioneer far         'Далеко.'                                |# [Мику застенчивая]
+mi shy swim                    'В купальнике.'                      |#
+mi shy swim close              'Близко.'                            |#
+mi shy swim far                'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi smile pioneer           'Мику улыбка в форме.'                   |#
+mi smile pioneer close     'Близко.'                                |#
+mi smile pioneer far       'Далеко .'                               |# [Мику улыбка]
+mi smile swim                  'В купальнике.'                      |#
+mi smile swim close            'Близко.'                            |#
+mi smile swim far              'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi surprise pioneer        'Мику удивлённая в форме.'               |#
+mi surprise pioneer close  'Близко.'                                |#
+mi surprise pioneer far    'Далеко.'                                |# [Мику удивлённая]
+mi surprise swim               'В купальнике.'                      |#
+mi surprise swim close         'Близко.'                            |#
+mi surprise swim far           'Далеко.'                            |#
+----------------------------------------------------------------------------------------------------------------
+mi upset pioneer           'Мику расстроенная в форме.'             |#
+mi upset pioneer close     'Близко.'                                |#
+mi upset pioneer far       'Далеко.'                                |# [Мику расстроенная]
+mi upset swim                  'В купальнике.'                      |#
+mi upset swim close            'Близко.'                            |#
+mi upset swim far              'Далеко.'                            |#
+________________________________________________________________________________________________________________
+# Ольга Дмитриевна:--------------------------------------------------------|#
+mt angry dress             'Ольга злая в платье.'                          |#
+mt angry dress close       'Близко.'                                       |#
+mt angry dress far         'Далеко.'                                       |#
+mt angry panama dress          'С панамой в платье.'                       |#
+mt angry panama dress close    'Близко.'                                   |#
+mt angry panama dress far      'Далеко.'                                   |#
+mt angry panama pioneer            'В форме с панамой.'                    |#
+mt angry panama pioneer close      'Близко.'                               |#
+mt angry panama pioneer far        'Далеко.'                               |# [Ольга злая]
+mt angry panama swim                   'В купальнике с панамой.'           |#
+mt angry panama swim close             'Близко.'                           |#
+mt angry panama swim far               'Далеко.'                           |#
+mt angry pioneer                           'В форме.'                      |#
+mt angry pioneer close                     'Близко.'                       |#
+mt angry pioneer far                       'Далеко.'                       |#
+mt angry swim                                  'В купальнике.'             |#
+mt angry swim close                            'Близко.'                   |#
+mt angry swim far                              'Далеко.'                   |#
+----------------------------------------------------------------------------------------------------------------
+mt grin panama pioneer         'Ольга ухмыляется в форме с панамой.'       |#
+mt grin panama pioneer close   'Близко.'                                   |#
+mt grin panama pioneer far     'Далеко.'                                   |# [Ольга ухмыляется]
+mt grin pioneer                    'В форме.'                              |#
+mt grin pioneer close              'Близко.'                               |#
+mt grin pioneer far                'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mt laugh panama pioneer        'Ольга смеётся в форме с панамой.'          |#
+mt laugh panama pioneer close  'Близко.'                                   |#
+mt laugh panama pioneer far    'Далеко.'                                   |# [Ольга смеётся]
+mt laugh pioneer                   'В форме.'                              |#
+mt laugh pioneer close             'Близко.'                               |#
+mt laugh pioneer far               'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mt normal dress            'Ольга обычная в платье.'                       |#
+mt normal dress close      'Близко.'                                       |#
+mt normal dress far        'Далеко.'                                       |#
+mt normal panama dress         'В платье с панамой.'                       |#
+mt normal panama dress close   'Близко.'                                   |#
+mt normal panama dress far     'Далеко.'                                   |#
+mt normal panama pioneer           'В форме с панамой.'                    |#
+mt normal panama pioneer close     'Близко.'                               |#
+mt normal panama pioneer far       'Далеко.'                               |# [Ольга обычная]
+mt normal panama swim                  'В купальнике с панамой.'           |#
+mt normal panama swim close            'Близко.'                           |#
+mt normal panama swim far              'Далеко.'                           |#
+mt normal pioneer                          'В форме.'                      |#
+mt normal pioneer close                    'Близко.'                       |#
+mt normal pioneer far                      'Далеко.'                       |#
+mt normal swim                                 'В купальнике.'             |#
+mt normal swim close                           'Близко.'                   |#
+mt normal swim far                             'Далеко.'                   |#
+----------------------------------------------------------------------------------------------------------------
+mt rage dress              'Ольга в ярости в платье.'                      |#
+mt rage dress close        'Близко.'                                       |#
+mt rage dress far          'Далеко.'                                       |#
+mt rage panama dress           'В платье с панамой.'                       |#
+mt rage panama dress close     'Близко.'                                   |#
+mt rage panama dress far       'Далеко.'                                   |#
+mt rage panama pioneer             'В форме с панамой.'                    |#
+mt rage panama pioneer close       'Близко.'                               |#
+mt rage panama pioneer far         'Далеко.'                               |# [Ольга в ярости]
+mt rage panama swim                    'В купальнике с панамой.'           |#
+mt rage panama swim close              'Близко.'                           |#
+mt rage panama swim far                'Далеко.'                           |#
+mt rage pioneer                            'В форме.'                      |#
+mt rage pioneer close                      'Близко.'                       |#
+mt rage pioneer far                        'Далеко.'                       |#
+mt rage swim                                   'В купальнике.'             |#
+mt rage swim close                             'Близко.'                   |#
+mt rage swim far                               'Далеко.'                   |#
+----------------------------------------------------------------------------------------------------------------
+mt sad dress               'Ольга расстроенная в платье.'                  |#
+mt sad dress close         'Близко.'                                       |#
+mt sad dress far           'Далеко.'                                       |#
+mt sad panama dress            'В платье с панамой.'                       |#
+mt sad panama dress close      'Близко.'                                   |#
+mt sad panama dress far        'Далеко.'                                   |#
+mt sad panama pioneer              'В форме с панамой.'                    |#
+mt sad panama pioneer close        'Близко.'                               |#
+mt sad panama pioneer far          'Далеко.'                               |# [Ольга расстроенная]
+mt sad panama swim                     'В купальнике с панамой.'           |#
+mt sad panama swim close               'Близко.'                           |#
+mt sad panama swim far                 'Далеко.'                           |#
+mt sad pioneer                             'В форме.'                      |#
+mt sad pioneer close                       'Близко.'                       |#
+mt sad pioneer far                         'Далеко.'                       |#
+mt sad swim                                    'В купальнике.'             |#
+mt sad swim close                              'Близко.'                   |#
+mt sad swim far                                'Далеко.'                   |#
+----------------------------------------------------------------------------------------------------------------
+mt scared pioneer          'Ольга недовольная в форме.'                    |# [Ольга недовольная]
+----------------------------------------------------------------------------------------------------------------
+mt shocked pioneer         'Ольга шокированная в форме.'                   |# [Ольга шокированная]
+----------------------------------------------------------------------------------------------------------------
+mt smile dress             'Ольга улыбка в платье.'                        |#
+mt smile dress close       'Близко.'                                       |#
+mt smile dress far         'Далеко.'                                       |#
+mt smile panama dress          'В платье с панамой.'                       |#
+mt smile panama dress close    'Близко.'                                   |#
+mt smile panama dress far      'Далеко.'                                   |#
+mt smile panama pioneer            'В форме с панамой.'                    |#
+mt smile panama pioneer close      'Близко.'                               |#
+mt smile panama pioneer far        'Далеко.'                               |# [Ольга улыбка]
+mt smile panama swim                   'В купальнике с панамой.'           |#
+mt smile panama swim close             'Близко.'                           |#
+mt smile panama swim far               'Далеко.'                           |#
+mt smile pioneer                           'В форме.'                      |#
+mt smile pioneer close                     'Близко.'                       |#
+mt smile pioneer far                       'Далеко.'                       |#
+mt smile swim                                  'В купальнике.'             |#
+mt smile swim close                            'Близко.'                   |#
+mt smile swim far                              'Далеко.'                   |#
+----------------------------------------------------------------------------------------------------------------
+mt surprise dress          'Ольга удивлённая в платье.'                    |#
+mt surprise dress close    'Близко.'                                       |#
+mt surprise dress far      'Далеко.'                                       |#
+mt surprise panama dress       'В платье с панамой.'                       |#
+mt surprise panama dress close 'Близко.'                                   |#
+mt surprise panama dress far   'Далеко.'                                   |#
+mt surprise panama pioneer         'В форме с панамой.'                    |#
+mt surprise panama pioneer close   'Близко.'                               |#
+mt surprise panama pioneer far     'Далеко.'                               |# [Ольга удивлённая]
+mt surprise panama swim                'В купальнике с панамой.'           |#
+mt surprise panama swim close          'Близко.'                           |#
+mt surprise panama swim far            'Далеко.'                           |#
+mt surprise pioneer                        'В форме.'                      |#
+mt surprise pioneer close                  'Близко.'                       |#
+mt surprise pioneer far                    'Далеко.'                       |#
+mt surprise swim                               'В купальнике.'             |#
+mt surprise swim close                         'Близко.'                   |#
+mt surprise swim far                           'Далеко.'                   |#
+________________________________________________________________________________________________________________
+# Женя:--------------------------------------------------------------------|#
+mz angry glasses pioneer       'Женя злая в форме с очками.'               |#
+mz angry glasses pioneer close 'Близко.'                                   |#
+mz angry glasses pioneer far   'Далеко.'                                   |# [Женя злая]
+mz angry pioneer                   'В форме.'                              |#
+mz angry pioneer close             'Близко.'                               |#
+mz angry pioneer far               'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mz bukal glasses pioneer       'Женя спокойная в форме с очками.'          |#
+mz bukal glasses pioneer close 'Близко.'                                   |#
+mz bukal glasses pioneer far   'Далеко.'                                   |# [Женя спокойная]
+mz bukal pioneer                   'В форме.'                              |#
+mz bukal pioneer close             'Близко.'                               |#
+mz bukal pioneer far               'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mz laugh glasses pioneer       'Женя смеётся в форме с очками.'            |#
+mz laugh glasses pioneer close 'Близко.'                                   |#
+mz laugh glasses pioneer far   'Далеко.'                                   |# [Женя смеётся]
+mz laugh pioneer                   'В форме.'                              |#
+mz laugh pioneer close             'Близко.'                               |#
+mz laugh pioneer far               'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mz normal glasses pioneer        'Женя обычная в форме с очками.'          |#
+mz normal glasses pioneer close  'Близко.'                                 |#
+mz normal glasses pioneer far    'Далеко.'                                 |# [Женя обычная]
+mz normal pioneer                    'В форме.'                            |#
+mz normal pioneer close              'Близко.'                             |#
+mz normal pioneer far                'Далеко.'                             |#
+----------------------------------------------------------------------------------------------------------------
+mz rage glasses pioneer        'Женя в ярости в форме с очками.'           |#
+mz rage glasses pioneer close  'Близко.'                                   |#
+mz rage glasses pioneer far    'Далеко.'                                   |# [Женя в ярости]
+mz rage pioneer                    'В форме.'                              |#
+mz rage pioneer close              'Близко.'                               |#
+mz rage pioneer far                'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mz shy glasses pioneer         'Женя застенчивая в форме с очками.'        |#
+mz shy glasses pioneer close   'Близко.'                                   |#
+mz shy glasses pioneer far     'Далеко.'                                   |# [Женя застенчивая]
+mz shy pioneer                     'В форме.'                              |#
+mz shy pioneer close               'Близко.'                               |#
+mz shy pioneer far                 'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+mz smile glasses pioneer       'Женя улыбка в форме с очками.'             |#
+mz smile glasses pioneer close 'Близко.'                                   |#
+mz smile glasses pioneer far   'Далеко.'                                   |# [Женя улыбка]
+mz smile pioneer                   'В форме.'                              |#
+mz smile pioneer close             'Близко.'                               |#
+mz smile pioneer far               'Далеко.'                               |#
+________________________________________________________________________________________________________________
+# Пионер:------------------------------------------------------------------|#
+pi                       'Пионер.'                                         |#
+pi close                 'Близко.'                                         |# [Пионер]
+pi far                   'Далеко.'                                         |#
+pi smile                 'Улыбка.'                                         |#
+________________________________________________________________________________________________________________
+# Шурик:-------------------------------------------------------------------|#
+sh cry               'Шурик плачет.'                                       |#
+sh cry close         'Близко.'                                             |#
+sh cry far           'Далеко.'                                             |# [Шурик плачет]
+sh cry pioneer           'В форме.'                                        |#
+sh cry pioneer close     'Близко.'                                         |#
+sh cry pioneer far       'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh laugh             'Шурик смеётся.'                                      |#
+sh laugh close       'Близко.'                                             |#
+sh laugh far         'Далеко.'                                             |# [Шурик смеётся]
+sh laugh pioneer         'В форме.'                                        |#
+sh laugh pioneer close   'Близко.'                                         |#
+sh laugh pioneer far     'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh normal            'Шурик обычный.'                                      |#
+sh normal close      'Близко.'                                             |#
+sh normal far        'Далеко.'                                             |# [Шурик обычный]
+sh normal pioneer        'В форме.'                                        |#
+sh normal pioneer close  'Близко.'                                         |#
+sh normal pioneer far    'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh normal_smile          'Шурик улыбка_2.'                                 |#
+sh normal_smile close    'Близко.'                                         |#
+sh normal_smile far      'Далеко.'                                         |# [Шурик улыбка_2]
+sh normal_smile pioneer        'В форме.'                                  |#
+sh normal_smile pioneer close  'Близко.'                                   |#
+sh normal_smile pioneer far    'Далеко.'                                   |#
+----------------------------------------------------------------------------------------------------------------
+sh rage              'Шурик в ярости.'                                     |#
+sh rage close        'Близко.'                                             |#
+sh rage far          'Далеко.'                                             |# [Шурик в ярости]
+sh rage pioneer          'В форме.'                                        |#
+sh rage pioneer close    'Близко.'                                         |#
+sh rage pioneer far      'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh scared            'Шурик напуганный.'                                   |#
+sh scared close      'Близко.'                                             |#
+sh scared far        'Далеко.'                                             |# [Шурик напуганный]
+sh scared pioneer        'В форме.'                                        |#
+sh scared pioneer close  'Близко.'                                         |#
+sh scared pioneer far    'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh serious           'Шурик серьёзный.'                                    |#
+sh serious close     'Близко.'                                             |#
+sh serious far       'Далеко.'                                             |# [Шурик серьёзный]
+sh serious pioneer       'В форме.'                                        |#
+sh serious pioneer close 'Близко.'                                         |#
+sh serious pioneer far   'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh smile             'Шурик улыбка_1.'                                     |#
+sh smile close       'Близко.'                                             |#
+sh smile far         'Далеко.'                                             |# [Шурик улыбка_1]
+sh smile pioneer         'В форме.'                                        |#
+sh smile pioneer close   'Близко.'                                         |#
+sh smile pioneer far     'Далеко.'                                         |#
+----------------------------------------------------------------------------------------------------------------
+sh surprise          'Шурик удивлённый.'                                   |#
+sh surprise close    'Близко.'                                             |#
+sh surprise far      'Далеко.'                                             |# [Шурик удивлённый]
+sh surprise pioneer        'В форме.'                                      |#
+sh surprise pioneer close  'Близко.'                                       |#
+sh surprise pioneer far    'Далеко.'                                       |#
+----------------------------------------------------------------------------------------------------------------
+sh upset             'Шурик расстроенный.'                                 |#
+sh upset close       'Близко.'                                             |#
+sh upset far         'Далеко.'                                             |# [Шурик расстроенный]
+sh upset pioneer         'В форме.'                                        |#
+sh upset pioneer close   'Близко.'                                         |#
+sh upset pioneer far     'Далеко.'                                         |#
+________________________________________________________________________________________________________________
+# Славя:-------------------------------------------------------------------|#
+sl angry dress         'Славя злая в платье.'                              |#
+sl angry dress close   'Близко.'                                           |#
+sl angry dress far     'Далеко.'                                           |#
+sl angry pioneer           'В форме.'                                      |#
+sl angry pioneer close     'Близко.'                                       |#
+sl angry pioneer far       'Далеко.'                                       |# [Славя злая]
+sl angry sport                 'В спортивной.'                             |#
+sl angry sport close           'Близко.'                                   |#
+sl angry sport far             'Далеко.'                                   |#
+sl angry swim                      'В купальнике.'                         |#
+sl angry swim close                'Близко.'                               |#
+sl angry swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl happy dress         'Славя счастлива в платье.'                         |#
+sl happy dress close   'Близко.'                                           |#
+sl happy dress far     'Далеко.'                                           |#
+sl happy pioneer           'В форме.'                                      |#
+sl happy pioneer close     'Близко.'                                       |#
+sl happy pioneer far       'Далеко.'                                       |# [Славя счастливая]
+sl happy sport                 'В спортивной.'                             |#
+sl happy sport close           'Близко.'                                   |#
+sl happy sport far             'Далеко.'                                   |#
+sl happy swim                      'В купальнике.'                         |#
+sl happy swim close                'Близко.'                               |#
+sl happy swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl laugh dress         'Славя смеётся в платье.'                           |#
+sl laugh dress close   'Близко.'                                           |#
+sl laugh dress far     'Далеко.'                                           |#
+sl laugh pioneer           'В форме.'                                      |#
+sl laugh pioneer close     'Близко.'                                       |#
+sl laugh pioneer far       'Далеко.'                                       |# [Славя смеётся]
+sl laugh sport                 'В спортивной.'                             |#
+sl laugh sport close           'Близко.'                                   |#
+sl laugh sport far             'Далеко.'                                   |#
+sl laugh swim                      'В купальнике.'                         |#
+sl laugh swim close                'Близко.'                               |#
+sl laugh swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl normal dress        'Славя обычная в платье.'                           |#
+sl normal dress close  'Близко.'                                           |#
+sl normal dress far    'Далеко.'                                           |#
+sl normal pioneer          'В форме.'                                      |#
+sl normal pioneer close    'Близко.'                                       |#
+sl normal pioneer far      'Далеко.'                                       |# [Славя обычная]
+sl normal sport                'В спортивной.'                             |#
+sl normal sport close          'Близко.'                                   |#
+sl normal sport far            'Далеко.'                                   |#
+sl normal swim                     'В купальнике.'                         |#
+sl normal swim close               'Близко.'                               |#
+sl normal swim far                 'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl sad dress           'Славя печальная в платье.'                         |#
+sl sad dress close     'Близко.'                                           |#
+sl sad dress far       'Далеко.'                                           |#
+sl sad pioneer             'В форме.'                                      |#
+sl sad pioneer close       'Близко.'                                       |#
+sl sad pioneer far         'Далеко.'                                       |# [Славя печальная]
+sl sad sport                   'В спортивной.'                             |#
+sl sad sport close             'Близко.'                                   |#
+sl sad sport far               'Далеко.'                                   |#
+sl sad swim                        'В купальнике.'                         |#
+sl sad swim close                  'Близко.'                               |#
+sl sad swim far                    'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl scared dress        'Славя напуганная в платье.'                        |#
+sl scared dress close  'Близко.'                                           |#
+sl scared dress far    'Далеко.'                                           |#
+sl scared pioneer          'В форме.'                                      |#
+sl scared pioneer close    'Близко.'                                       |#
+sl scared pioneer far      'Далеко.'                                       |# [Славя напуганная]
+sl scared sport                'В спортивной.'                             |#
+sl scared sport close          'Близко.'                                   |#
+sl scared sport far            'Далеко.'                                   |#
+sl scared swim                     'В купальнике.'                         |#
+sl scared swim close               'Близко.'                               |#
+sl scared swim far                 'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl serious dress       'Славя серьёзная в платье.'                         |#
+sl serious dress close 'Близко.'                                           |#
+sl serious dress far   'Далеко.'                                           |#
+sl serious pioneer         'В форме.'                                      |#
+sl serious pioneer close   'Близко.'                                       |#
+sl serious pioneer far     'Далеко.'                                       |# [Славя серьёзная]
+sl serious sport               'В спортивной.'                             |#
+sl serious sport close         'Близко.'                                   |#
+sl serious sport far           'Далеко.'                                   |#
+sl serious swim                    'В купальнике.'                         |#
+sl serious swim close              'Близко.'                               |#
+sl serious swim far                'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl shy dress           'Славя застенчивая в платье.'                       |#
+sl shy dress close     'Близко.'                                           |#
+sl shy dress far       'Далеко.'                                           |#
+sl shy pioneer             'В форме.'                                      |#
+sl shy pioneer close       'Близко.'                                       |#
+sl shy pioneer far         'Далеко.'                                       |# [Славя застенчивая]
+sl shy sport                   'В спортивной.'                             |#
+sl shy sport close             'Близко.'                                   |#
+sl shy sport far               'Далеко.'                                   |#
+sl shy swim                        'В купальнике.'                         |#
+sl shy swim close                  'Близко.'                               |#
+sl shy swim far                    'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl smile dress         'Славя улыбка_1 в платье.'                          |#
+sl smile dress close   'Близко.'                                           |#
+sl smile dress far     'Далеко.'                                           |#
+sl smile pioneer           'В форме.'                                      |#
+sl smile pioneer close     'Близко.'                                       |#
+sl smile pioneer far       'Далеко.'                                       |# [Славя улыбка_1]
+sl smile sport                 'В спортивной.'                             |#
+sl smile sport close           'Близко.'                                   |#
+sl smile sport far             'Далеко.'                                   |#
+sl smile swim                      'В купальнике.'                         |#
+sl smile swim close                'Близко.'                               |#
+sl smile swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+sl smile2 dress        'Славя улыбка_2 в платье.'                          |#
+sl smile2 dress close  'Близко.'                                           |#
+sl smile2 dress far    'Далеко.'                                           |#
+sl smile2 pioneer          'В форме.'                                      |#
+sl smile2 pioneer close    'Близко.'                                       |#
+sl smile2 pioneer far      'Далеко.'                                       |# [Славя улыбка_2]
+sl smile2 sport                'В спортивной.'                             |#
+sl smile2 sport close              'Близко.'                               |#
+sl smile2 sport far                'Далеко.'                               |#
+sl smile2 swim                         'В купальнике.'                     |#
+sl smile2 swim close                   'Близко.'                           |#
+sl smile2 swim far                     'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+sl surprise dress        'Славя удивлённая в платье.'                      |#
+sl surprise dress close  'Близко.'                                         |#
+sl surprise dress far    'Далеко.'                                         |#
+sl surprise pioneer          'В форме.'                                    |#
+sl surprise pioneer close    'Близко.'                                     |#
+sl surprise pioneer far      'Далеко.'                                     |# [Славя удивлённая]
+sl surprise sport                'В спортивной.'                           |#
+sl surprise sport close          'Близко.'                                 |#
+sl surprise sport far            'Далеко.'                                 |#
+sl surprise swim                     'В купальнике.'                       |#
+sl surprise swim close               'Близко.'                             |#
+sl surprise swim far                 'Далеко.'                             |#
+----------------------------------------------------------------------------------------------------------------
+sl tender dress        'Славя нежная в платье.'                            |#
+sl tender dress close  'Близко.'                                           |#
+sl tender dress far    'Далеко.'                                           |#
+sl tender pioneer          'В форме.'                                      |#
+sl tender pioneer close    'Близко.'                                       |#
+sl tender pioneer far      'Далеко.'                                       |# [Славя нежная]
+sl tender sport                'В спортивной.'                             |#
+sl tender sport close          'Близко.'                                   |#
+sl tender sport far            'Далеко.'                                   |#
+sl tender swim                     'В купальнике.'                         |#
+sl tender swim close               'Близко.'                               |#
+sl tender swim far                 'Далеко.'                               |#
+________________________________________________________________________________________________________________
+# Лена:--------------------------------------------------------------------|#
+un angry body          'Лена злая голая.'                                  |#
+un angry body close    'Близко.'                                           |#
+un angry dress             'В платье.'                                     |#
+un angry dress close       'Близко.'                                       |#
+un angry dress far         'Далеко.'                                       |#
+un angry pioneer               'В форме.'                                  |#
+un angry pioneer close         'Близко.'                                   |# [Лена злая]
+un angry pioneer far           'Далеко.'                                   |#
+un angry sport                     'В спортивной.'                         |#
+un angry sport close               'Близко.'                               |#
+un angry sport far                 'Далеко.'                               |#
+un angry swim                          'В купальнике.'                     |#
+un angry swim close                    'Близко.'                           |#
+un angry swim far                      'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un angry2 body         'Лена злая_2 голая.'                                |#
+un angry2 body close   'Близко.'                                           |#
+un angry2 dress            'В платье.'                                     |#
+un angry2 dress close      'Близко.'                                       |#
+un angry2 dress far        'Далеко.'                                       |#
+un angry2 pioneer              'В форме.'                                  |# [Лена злая_2]
+un angry2 pioneer close        'Близко.'                                   |#
+un angry2 pioneer far          'Далеко.'                                   |#
+un angry2 sport                    'В спортивной.'                         |#
+un angry2 sport close              'Близко.'                               |#
+un angry2 sport far                'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+un cry body            'Лена плачет голая.'                                |#
+un cry body close      'Близко.'                                           |#
+un cry dress               'В платье.'                                     |#
+un cry dress close         'Близко.'                                       |#
+un cry dress far           'Далеко.'                                       |#
+un cry pioneer                 'В форме.'                                  |#
+un cry pioneer close           'Близко.'                                   |# [Лена плачет]
+un cry pioneer far             'Далеко.'                                   |#
+un cry sport                       'В спортивной.'                         |#
+un cry sport close                 'Близко.'                               |#
+un cry sport far                   'Далеко.'                               |#
+un cry swim                            'В купальнике.'                     |#
+un cry swim close                      'Близко.'                           |#
+un cry swim far                        'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un cry_smile body        'Лена улыбка со слезами голая.'                   |#
+un cry_smile body close  'Близко.'                                         |#
+un cry_smile dress           'В платье.'                                   |#
+un cry_smile dress close     'Близко.'                                     |#
+un cry_smile dress far       'Далеко.'                                     |#
+un cry_smile pioneer             'В форме.'                                |#
+un cry_smile pioneer close       'Близко.'                                 |# [Лена улыбка со слезами]
+un cry_smile pioneer far         'Далеко.'                                 |#
+un cry_smile sport                   'В спортивной.'                       |#
+un cry_smile sport close             'Близко.'                             |#
+un cry_smile sport far               'Далеко.'                             |#
+un cry_smile swim                        'В купальнике.'                   |#
+un cry_smile swim close                  'Близко.'                         |#
+un cry_smile swim far                    'Далеко.'                         |#
+----------------------------------------------------------------------------------------------------------------
+un evil_smile body       'Лена злая улыбка голая.'                         |#
+un evil_smile body close 'Близко.'                                         |#
+un evil_smile dress          'В платье.'                                   |#
+un evil_smile dress close    'Близко.'                                     |#
+un evil_smile dress far      'Далеко.'                                     |#
+un evil_smile pioneer            'В форме.'                                |#
+un evil_smile pioneer close      'Близко.'                                 |# [Лена улыбка злая]
+un evil_smile pioneer far        'Далеко.'                                 |#
+un evil_smile sport                  'В спортивной.'                       |#
+un evil_smile sport close            'Близко.'                             |#
+un evil_smile sport far              'Далеко.'                             |#
+un evil_smile swim                       'В купальнике.'                   |#
+un evil_smile swim close                     'Близко.'                     |#
+un evil_smile swim far                       'Далеко.'                     |#
+----------------------------------------------------------------------------------------------------------------
+un grin body           'Лена ухмыляется голая.'                            |#
+un grin body close     'Близко.'                                           |#
+un grin dress              'В платье.'                                     |#
+un grin dress close        'Близко.'                                       |#
+un grin dress far          'Далеко.'                                       |#
+un grin pioneer                'В форме.'                                  |# [Лена ухмыляется]
+un grin pioneer close          'Близко.'                                   |#
+un grin pioneer far            'Далеко.'                                   |#
+un grin sport                      'В спортивной.'                         |#
+un grin sport close                'Близко.'                               |#
+un grin sport far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+un laugh body          'Лена смеётся голая.'                               |#
+un laugh body close    'Близко.'                                           |#
+un laugh dress             'В платье.'                                     |#
+un laugh dress close       'Близко.'                                       |#
+un laugh dress far         'Далеко.'                                       |#
+un laugh pioneer               'В форме.'                                  |# [Лена смеётся]
+un laugh pioneer close         'Близко.'                                   |#
+un laugh pioneer far           'Далеко.'                                   |#
+un laugh sport                     'В спортивной.'                         |#
+un laugh sport close                   'Близко.'                           |#
+un laugh sport far                     'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un normal body          'Лена обычная голая.'                              |#
+un normal body close    'Близко.'                                          |#
+un normal dress             'В платье.'                                    |#
+un normal dress close       'Близко.'                                      |#
+un normal dress far         'Далеко.'                                      |#
+un normal pioneer               'В форме.'                                 |#
+un normal pioneer close         'Близко.'                                  |# [Лена обычная]
+un normal pioneer far           'Далеко.'                                  |#
+un normal sport                     'В спортивной.'                        |#
+un normal sport close               'Близко.'                              |#
+un normal sport far                 'Далеко.'                              |#
+un normal swim                          'В купальнике.'                    |#
+un normal swim close                    'Близко.'                          |#
+un normal swim far                      'Далеко.'                          |#
+----------------------------------------------------------------------------------------------------------------
+un rage body           'Лена в ярости голая.'                              |#
+un rage body close     'Близко.'                                           |#
+un rage dress              'В платье.'                                     |#
+un rage dress close        'Близко.'                                       |#
+un rage dress far          'Далеко.'                                       |#
+un rage pioneer                'В форме.'                                  |# [Лена в ярости]
+un rage pioneer close          'Близко.'                                   |#
+un rage pioneer far            'Далеко.'                                   |#
+un rage sport                      'В спортивной.'                         |#
+un rage sport close                'Близко.'                               |#
+un rage sport far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+un sad body            'Лена печальная голая.'                             |#
+un sad body close      'Близко.'                                           |#
+un sad dress               'В платье.'                                     |#
+un sad dress close         'Близко.'                                       |#
+un sad dress far           'Далеко.'                                       |#
+un sad pioneer                 'В форме.'                                  |#
+un sad pioneer close           'Близко.'                                   |# [Лена печальная]
+un sad pioneer far             'Далеко.'                                   |#
+un sad sport                       'В спортивной.'                         |#
+un sad sport close                 'Близко.'                               |#
+un sad sport far                   'Далеко.'                               |#
+un sad swim                            'В купальнике.'                     |#
+un sad swim close                      'Близко.'                           |#
+un sad swim far                        'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un scared body         'Лена напуганная голая.'                            |#
+un scared body close   'Близко.'                                           |#
+un scared dress            'В платье.'                                     |#
+un scared dress close      'Близко.'                                       |#
+un scared dress far        'Далеко.'                                       |#
+un scared pioneer              'В форме.'                                  |#
+un scared pioneer close        'Близко.'                                   |# [Лена напуганная]
+un scared pioneer far          'Далеко.'                                   |#
+un scared sport                    'В спортивной.'                         |#
+un scared sport close              'Близко.'                               |#
+un scared sport far                'Далеко.'                               |#
+un scared swim                         'В купальнике.'                     |#
+un scared swim close                   'Близко.'                           |#
+un scared swim far                     'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un serious body        'Лена серьёзная голая.'                             |#
+un serious body close  'Близко.'                                           |#
+un serious dress           'В платье.'                                     |#
+un serious dress close     'Близко.'                                       |#
+un serious dress far       'Далеко.'                                       |#
+un serious pioneer             'В форме.'                                  |# [Лена серьёзная]
+un serious pioneer close       'Близко.'                                   |#
+un serious pioneer far         'Далеко.'                                   |#
+un serious sport                   'В спортивной.'                         |#
+un serious sport close             'Близко.'                               |#
+un serious sport far               'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+un shocked body        'Лена шокированная голая.'                          |#
+un shocked body close  'Близко.'                                           |#
+un shocked dress           'В платье.'                                     |#
+un shocked dress close     'Близко.'                                       |#
+un shocked dress far       'Лена Далеко.'                                  |#
+un shocked pioneer             'В форме.'                                  |#
+un shocked pioneer close       'Близко.'                                   |# [Лена шокированная]
+un shocked pioneer far         'Далеко.'                                   |#
+un shocked sport                   'В спортивной.'                         |#
+un shocked sport close             'Близко.'                               |#
+un shocked sport far               'Далеко.'                               |#
+un shocked swim                        'В купальнике.'                     |#
+un shocked swim close                  'Близко.'                           |#
+un shocked swim far                    'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un shy body            'Лена застенчивая голая.'                           |#
+un shy body close      'Близко.'                                           |#
+un shy dress               'В платье.'                                     |#
+un shy dress close         'Близко.'                                       |#
+un shy dress far           'Далеко.'                                       |#
+un shy pioneer                 'В форме.'                                  |#
+un shy pioneer close           'Близко.'                                   |# [Лена застенчивая]
+un shy pioneer far             'Далеко.'                                   |#
+un shy sport                       'В спортивной.'                         |#
+un shy sport close                 'Близко.'                               |#
+un shy sport far                   'Далеко.'                               |#
+un shy swim                            'В купальнике.'                     |#
+un shy swim close                      'Близко.'                           |#
+un shy swim far                        'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un smile body          'Лена улыбка_1 голая.'                              |#
+un smile body close    'Близко.'                                           |#
+un smile dress             'В платье.'                                     |#
+un smile dress close       'Близко.'                                       |#
+un smile dress far         'Далеко.'                                       |#
+un smile pioneer               'В форме.'                                  |#
+un smile pioneer close         'Близко.'                                   |# [Лена улыбка_1]
+un smile pioneer far           'Далеко.'                                   |#
+un smile sport                     'В спортивной.'                         |#
+un smile sport close               'Близко.'                               |#
+un smile sport far                 'Далеко.'                               |#
+un smile swim                          'В купальнике.'                     |#
+un smile swim close                    'Близко.'                           |#
+un smile swim far                      'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un smile2 body         'Лена улыбка_2 голая.'                              |#
+un smile2 body close   'Близко.'                                           |#
+un smile2 dress            'В платье.'                                     |#
+un smile2 dress close      'Близко.'                                       |#
+un smile2 dress far        'Далеко.'                                       |#
+un smile2 pioneer              'В форме.'                                  |#
+un smile2 pioneer close        'Близко.'                                   |#
+un smile2 pioneer far          'Далеко.'                                   |# [Лена улыбка_2]
+un smile2 sport                    'В спортивной.'                         |#
+un smile2 sport close              'Близко.'                               |#
+un smile2 sport far                'Далеко.'                               |#
+un smile2 swim                         'В купальнике.'                     |#
+un smile2 swim close                   'Близко.'                           |#
+un smile2 swim far                     'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+un smile3 body         'Лена улыбка_3 голая.'                              |#
+un smile3 body close   'Близко.'                                           |#
+un smile3 dress            'В платье.'                                     |#
+un smile3 dress close      'Близко.'                                       |#
+un smile3 dress far        'Далеко.'                                       |#
+un smile3 pioneer              'В форме.'                                  |# [Лена улыбка_3]
+un smile3 pioneer close        'Близко.'                                   |#
+un smile3 pioneer far          'Далеко.'                                   |#
+un smile3 sport                    'В спортивной.'                         |#
+un smile3 sport close              'Близко.'                               |#
+un smile3 sport far                'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+un surprise body       'Лена удивлённая голая.'                            |#
+un surprise body close 'Близко.'                                           |#
+un surprise dress          'В платье.'                                     |#
+un surprise dress close    'Близко.'                                       |#
+un surprise dress far      'Далеко.'                                       |#
+un surprise pioneer            'В форме.'                                  |#
+un surprise pioneer close      'Близко.'                                   |# [Лена удивлённая]
+un surprise pioneer far        'Далеко.'                                   |#
+un surprise sport                  'В спортивной.'                         |#
+un surprise sport close            'Близко.'                               |#
+un surprise sport far              'Далеко.'                               |#
+un surprise swim                       'В купальнике.'                     |#
+un surprise swim close                 'Близко.'                           |#
+un surprise swim far                   'Далеко.'                           |#
+________________________________________________________________________________________________________________
+# Ульяна:------------------------------------------------------------------|#
+us angry dress         'Ульяна злая в платье.'                             |#
+us angry dress close   'Близко.'                                           |#
+us angry dress far     'Далеко.'                                           |#
+us angry pioneer           'В форме.'                                      |#
+us angry pioneer close     'Близко.'                                       |#
+us angry pioneer far       'Далеко.'                                       |# [Ульяна злая]
+us angry sport                 'В спортивной.'                             |#
+us angry sport close           'Близко.'                                   |#
+us angry sport far             'Далеко.'                                   |#
+us angry swim                      'В купальнике.'                         |#
+us angry swim close                'Близко.'                               |#
+us angry swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us calml dress         'Ульяна удивлённая в платье.'                       |#
+us calml dress close   'Близко.'                                           |#
+us calml dress far     'Далеко.'                                           |#
+us calml pioneer           'В форме.'                                      |#
+us calml pioneer close     'Близко.'                                       |#
+us calml pioneer far       'Далеко.'                                       |# [Ульяна удивлённая]
+us calml sport                 'В спортивной.'                             |#
+us calml sport close           'Близко.'                                   |#
+us calml sport far             'Далеко.'                                   |#
+us calml swim                      'В купальнике.'                         |#
+us calml swim close                'Близко.'                               |#
+us calml swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us cry dress           'Ульяна плачет в платье.'                           |#
+us cry dress close     'Близко.'                                           |#
+us cry dress far       'Далеко.'                                           |#
+us cry pioneer             'В форме.'                                      |#
+us cry pioneer close       'Близко.'                                       |#
+us cry pioneer far         'Далеко.'                                       |# [Ульяна плачет]
+us cry sport                   'В спортивной.'                             |#
+us cry sport close             'Близко.'                                   |#
+us cry sport far               'Далеко.'                                   |#
+us cry swim                        'В купальнике.'                         |#
+us cry swim close                  'Близко.'                               |#
+us cry swim far                    'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us cry2 dress          'Ульяна плачет_2 в платье.'                         |#
+us cry2 dress close    'Близко.'                                           |#
+us cry2 dress far      'Далеко.'                                           |#
+us cry2 pioneer            'В форме.'                                      |#
+us cry2 pioneer close      'Близко.'                                       |#
+us cry2 pioneer far        'Далеко.'                                       |# [Ульяна плачет_2]
+us cry2 sport                 'В спортивной.'                              |#
+us cry2 sport close           'Близко.'                                    |#
+us cry2 sport far             'Далеко.'                                    |#
+us cry2 swim                      'В купальнике.'                          |#
+us cry2 swim close                'Близко.'                                |#
+us cry2 swim far                  'Далеко.'                                |#
+----------------------------------------------------------------------------------------------------------------
+us dontlike dress          'Ульяна недовольная в платье.'                  |#
+us dontlike dress close    'Близко.'                                       |#
+us dontlike dress far      'Далеко.'                                       |#
+us dontlike pioneer            'В форме.'                                  |#
+us dontlike pioneer close      'Близко.'                                   |#
+us dontlike pioneer far        'Далеко.'                                   |# [Ульяна недовольная]
+us dontlike sport                  'В спортивной.'                         |#
+us dontlike sport close            'Близко.'                               |#
+us dontlike sport far              'Далеко.'                               |#
+us dontlike swim                       'В купальнике.'                     |#
+us dontlike swim close                 'Близко.'                           |#
+us dontlike swim far                   'Далеко.'                           |#
+----------------------------------------------------------------------------------------------------------------
+us fear dress          'Ульяна боится в платье.'                           |#
+us fear dress close    'Близко.'                                           |#
+us fear dress far      'Далеко.'                                           |#
+us fear pioneer            'В форме.'                                      |#
+us fear pioneer close      'Близко.'                                       |#
+us fear pioneer far        'Далеко.'                                       |# [Ульяна боится]
+us fear sport                  'В спортивной.'                             |#
+us fear sport close            'Близко.'                                   |#
+us fear sport far              'Далеко.'                                   |#
+us fear swim                       'В купальнике.'                         |#
+us fear swim close                 'Близко.'                               |#
+us fear swim far                   'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us grin dress          'Ульяна ухмыляется в платье.'                       |#
+us grin dress close    'Близко.'                                           |#
+us grin dress far      'Далеко.'                                           |#
+us grin pioneer            'В форме.'                                      |#
+us grin pioneer close      'Близко.'                                       |#
+us grin pioneer far        'Далеко.'                                       |# [Ульяна ухмыляется]
+us grin sport                  'В спортивной.'                             |#
+us grin sport close            'Близко.'                                   |#
+us grin sport far              'Далеко.'                                   |#
+us grin swim                       'В купальнике.'                         |#
+us grin swim close                 'Близко.'                               |#
+us grin swim far                   'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us laugh dress         'Ульяна смеётся в платье.'                          |#
+us laugh dress close   'Близко.'                                           |#
+us laugh dress far     'Далеко.'                                           |#
+us laugh pioneer           'В форме.'                                      |#
+us laugh pioneer close     'Близко.'                                       |#
+us laugh pioneer far       'Далеко.'                                       |# [Ульяна смеётся]
+us laugh sport                 'В спортивной.'                             |#
+us laugh sport close           'Близко.'                                   |#
+us laugh sport far             'Далеко.'                                   |#
+us laugh swim                      'В купальнике.'                         |#
+us laugh swim close                'Близко.'                               |#
+us laugh swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us laugh2 dress        'Ульяна смеётся_2 в платье.'                        |#
+us laugh2 dress close  'Близко.'                                           |#
+us laugh2 dress far    'Далеко.'                                           |#
+us laugh2 pioneer          'В форме.'                                      |#
+us laugh2 pioneer close    'Близко.'                                       |#
+us laugh2 pioneer far      'Далеко.'                                       |# [Ульяна смеётся_2]
+us laugh2 sport                'В спортивной.'                             |#
+us laugh2 sport close          'Близко.'                                   |#
+us laugh2 sport far            'Далеко.'                                   |#
+us laugh2 swim                     'В купальнике.'                         |#
+us laugh2 swim close               'Близко.'                               |#
+us laugh2 swim far                 'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us normal dress        'Ульяна обычная в платье.'                          |#
+us normal dress close  'Близко.'                                           |#
+us normal dress far    'Далеко.'                                           |#
+us normal pioneer          'В форме.'                                      |#
+us normal pioneer close    'Близко.'                                       |#
+us normal pioneer far      'Далеко.'                                       |# [Ульяна обычная]
+us normal sport                'В спортивной.'                             |#
+us normal sport close          'Близко.'                                   |#
+us normal sport far            'Далеко.'                                   |#
+us normal swim                     'В купальнике.'                         |#
+us normal swim close               'Близко.'                               |#
+us normal swim far                 'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us sad dress           'Ульяна печальная в платье.'                        |#
+us sad dress close     'Близко.'                                           |#
+us sad dress far       'Далеко.'                                           |#
+us sad pioneer             'В форме.'                                      |#
+us sad pioneer close       'Близко.'                                       |#
+us sad pioneer far         'Далеко.'                                       |# [Ульяна печальная]
+us sad sport                   'В спортивной.'                             |#
+us sad sport close             'Близко.'                                   |#
+us sad sport far               'Далеко.'                                   |#
+us sad swim                        'В купальнике.'                         |#
+us sad swim close                  'Близко.'                               |#
+us sad swim far                    'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us shy dress           'Ульяна застенчивая в платье.'                      |#
+us shy dress close     'Близко.'                                           |#
+us shy dress far       'Далеко.'                                           |#
+us shy pioneer             'В форме.'                                      |#
+us shy pioneer close       'Близко.'                                       |#
+us shy pioneer far         'Далеко.'                                       |# [Ульяна застенчивая]
+us shy sport                   'В спортивной.'                             |#
+us shy sport close             'Близко.'                                   |#
+us shy sport far               'Далеко.'                                   |#
+us shy swim                        'В купальнике.'                         |#
+us shy swim close                  'Близко.'                               |#
+us shy swim far                    'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us shy2 dress          'Ульяна застенчивая_2 в платье.'                    |#
+us shy2 dress close    'Близко.'                                           |#
+us shy2 dress far      'Далеко.'                                           |#
+us shy2 pioneer            'В форме.'                                      |#
+us shy2 pioneer close      'Близко.'                                       |#
+us shy2 pioneer far        'Далеко.'                                       |# [Ульяна застенчивая_2]
+us shy2 sport                  'В спортивной.'                             |#
+us shy2 sport close            'Близко.'                                   |#
+us shy2 sport far              'Далеко.'                                   |#
+us shy2 swim                       'В купальнике.'                         |#
+us shy2 swim close                 'Близко.'                               |#
+us shy2 swim far                   'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us smile dress         'Ульяна улыбка в платье.'                           |#
+us smile dress close   'Близко.'                                           |#
+us smile dress far     'Далеко.'                                           |#
+us smile pioneer           'В форме.'                                      |#
+us smile pioneer close     'Близко.'                                       |#
+us smile pioneer far       'Далеко.'                                       |# [Ульяна улыбка]
+us smile sport                 'В спортивной.'                             |#
+us smile sport close           'Близко.'                                   |#
+us smile sport far             'Далеко.'                                   |#
+us smile swim                      'В купальнике.'                         |#
+us smile swim close                'Близко.'                               |#
+us smile swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us surp1 dress         'Ульяна удивлённая_1 в платье.'                     |#
+us surp1 dress close   'Близко.'                                           |#
+us surp1 dress far     'Далеко.'                                           |#
+us surp1 pioneer           'В форме.'                                      |#
+us surp1 pioneer close     'Близко.'                                       |#
+us surp1 pioneer far       'Далеко.'                                       |# [Ульяна удивлённая_1]
+us surp1 sport                 'В спортивной.'                             |#
+us surp1 sport close           'Близко.'                                   |#
+us surp1 sport far             'Далеко.'                                   |#
+us surp1 swim                      'В купальнике.'                         |#
+us surp1 swim close                'Близко.'                               |#
+us surp1 swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us surp2 dress         'Ульяна удивлённая_2 в платье.'                     |#
+us surp2 dress close   'Близко.'                                           |#
+us surp2 dress far     'Далеко.'                                           |#
+us surp2 pioneer           'В форме.'                                      |#
+us surp2 pioneer close     'Близко.'                                       |#
+us surp2 pioneer far       'Далеко.'                                       |# [Ульяна удивлённая_2]
+us surp2 sport                 'В спортивной.'                             |#
+us surp2 sport close           'Близко.'                                   |#
+us surp2 sport far             'Далеко.'                                   |#
+us surp2 swim                      'В купальнике.'                         |#
+us surp2 swim close                'Близко.'                               |#
+us surp2 swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us surp3 dress         'Ульяна удивлённая_3 в платье.'                     |#
+us surp3 dress close   'Близко.'                                           |#
+us surp3 dress far     'Далеко.'                                           |#
+us surp3 pioneer           'В форме.'                                      |#
+us surp3 pioneer close     'Близко.'                                       |#
+us surp3 pioneer far       'Далеко.'                                       |# [Ульяна удивлённая_3]
+us surp3 sport                 'В спортивной.'                             |#
+us surp3 sport close           'Близко.'                                   |#
+us surp3 sport far             'Далеко.'                                   |#
+us surp3 swim                      'В купальнике.'                         |#
+us surp3 swim close                'Близко.'                               |#
+us surp3 swim far                  'Далеко.'                               |#
+----------------------------------------------------------------------------------------------------------------
+us upset dress         'Ульяна расстроенная в платье.'                     |#
+us upset dress close   'Близко.'                                           |#
+us upset dress far     'Далеко.'                                           |#
+us upset pioneer           'В форме.'                                      |#
+us upset pioneer close     'Близко.'                                       |#
+us upset pioneer far       'Далеко.'                                       |# [Ульяна расстроенная]
+us upset sport                 'В спортивной.'                             |#
+us upset sport close           'Близко.'                                   |#
+us upset sport far             'Далеко.'                                   |#
+us upset swim                      'В купальнике.'                         |#
+us upset swim close                'Близко.'                               |#
+us upset swim far                  'Далеко.'                               |#
+________________________________________________________________________________________________________________
+# Юля:---------------------------------------------------------------------|#
+uv dontlike          'Юля недовольная.'                                    |#
+uv dontlike close    'Близко.'                                             |# [Юля недовольная]
+uv dontlike far      'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv grin              'Юля ухмыляется.'                                     |#
+uv grin close        'Близко.'                                             |# [Юля ухмыляется]
+uv grin far          'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv guilty            'Юля виноватая.'                                      |#
+uv guilty close      'Близко.'                                             |# [Юля виноватая]
+uv guilty far        'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv laugh             'Юля смеётся.'                                        |#
+uv laugh close       'Близко.'                                             |# [Юля смеётся]
+uv laugh far         'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv normal            'Юля обычная.'                                        |#
+uv normal close      'Близко.'                                             |# [Юля обычная]
+uv normal far        'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv rage              'Юля в ярости.'                                       |#
+uv rage close        'Близко.'                                             |# [Юля в ярости]
+uv rage far          'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv sad               'Юля печальная.'                                      |#
+uv sad close         'Близко.'                                             |# [Юля печальная]
+uv sad far           'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv shocked           'Юля шокированная.'                                   |#
+uv shocked close     'Близко.'                                             |# [Юля шокированная]
+uv shocked far       'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv smile             'Юля улыбка.'                                         |#
+uv smile close       'Близко.'                                             |# [Юля улыбка]
+uv smile far         'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv surprise          'Юля удивлённая.'                                     |#
+uv surprise close    'Близко.'                                             |# [Юля удивлённая]
+uv surprise far      'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv surprise2         'Юля удивлённая_2.'                                   |#
+uv surprise2 close   'Близко.'                                             |# [Юля удивлённая_2]
+uv surprise2 far     'Далеко.'                                             |#
+----------------------------------------------------------------------------------------------------------------
+uv upset             'Юля расстроенная.'                                   |#
+uv upset close       'Близко.'                                             |# [Юля расстроенная]
+uv upset far         'Далеко.'                                             |#
+________________________________________________________________________________________________________________
+# Страшные спрайты:--------------------------------------------------------|#
+cs dead                                                                    |#
+cs dead hat                                                                |#
+dv dead                                                                    |#
+dv dead neck                                                               |#
+el nohead                                                                  |#
+mi nightmare                                                               |#
+mt nightmare close                                                         |#
+mz burned                                                                  |#
+mz burned body1                                                            |#
+mz burned body2                                                            |# *|Не работают, но их можно добавить написав им
+mz burned body3                                                            |#  новые переменные|*
+mz burned body4                                                            |#
+pi blood                                                                   |#
+sh dead                                                                    |#
+sh dead blood                                                              |#
+sh dead hands                                                              |#
+sl dead                                                                    |#
+un blood                                                                   |#
+us dead                                                                    |#
+us dead elhead                                                             |#
+us zombie                                                                  |#
+________________________________________________________________________________________________________________
+# QR:----------------------------------------------------------------------|#
+qr dirty                                                                   |#
+qr nya                                                                     |# *|Не работают|*
+qr normal                                                                  |#
+________________________________________________________________________________________________________________
+# Толик:-------------------------------------------------------------------|#
+tl normal pioneer          'Толик обычный в форме.'                        |# [Толик обычный]
+tl normal pioneer close    'Близко.'                                       |#
+tl normal pioneer far      'Далеко.'                                       |#
+----------------------------------------------------------------------------------------------------------------
+tl rage pioneer            'Толик в ярости в форме.'                       |#
+tl rage pioneer close      'Близко.'                                       |# [Толик в ярости]
+tl rage pioneer far        'Далеко.'                                       |#
+________________________________________________________________________________________________________________
+# uprt:--------------------------------------------------------------------|#
+sl uprt                                                                    |#
+sl uprt close                                                              |# *|Не работают|*
+sl uprt far                                                                |#
+________________________________________________________________________________________________________________
+
+# вт,08/февраля/2022., 10:38 PM., Закончен.

@@ -1,0 +1,317 @@
+##################################################################################
+Release:
+# Файл с полезной информацией из разных источников, в том числе и "ВК".
+Версия файла 2.0
+Автор Максим Райс, улучшенная версия.
+##################################################################################
+
+
+По сценарию должна быть дискотека? Вы недовольны тем, что фон площади
+статичен и гирлянды не моргают? - Не беда. Так вот; «ext_square_night_party и
+ext_square_night_party2» - это площадь в день дискотеки, один с включенными
+огнями, а другой - с выключенными.
+
+В (init) блоке пишем следующее;
+
+init:
+
+    image bg discoteka:
+        "ext_square_night_party" with dissolve2
+        pause(2.5)
+        "ext_square_night_party2" with dissolve2
+        pause(2.5)
+        repeat 10 # Цифра 10 указывает, что гирлянды будут моргать десять раз, а потом остановятся.
+
+Теперь перейдем в Ваш label;
+
+label название:
+
+    scene bg discoteka
+    with dissolve
+
+    "Теперь, Ваш фон динамичный и огни красиво, то горят, то затухают."
+
+##################################################################################
+
+    $_game_menu_screen = "Ваш скрин"
+    $_game_menu_screen = "game_menu_selector"
+    action (SetVariable("_game_menu_screen", "game_menu_selector"), MainMenu())
+
+##################################################################################
+
+Создание кнопки в меню, с ссылкой.
+
+    imagebutton:
+        auto "mods/название мода/папка с картинкой/кнопка 1_%s.png"
+        pos (66, 800) # Установить позицию.
+        action OpenURL("https://vk.com/") # Пример, как вставлять ссылку.
+
+##################################################################################
+
+Если хотите, чтобы во время закрытия глаз, менялся фон и спрайты (закрыл
+глаза - одни спрайты, открыл - уже другие) - используйте эту команду (behind blink).
+
+    show blink
+
+    play sound sfx_scary_sting
+
+    scene bg int_dining_hall_night behind blink
+    show us laugh pioneer at left behind blink
+
+    hide blink
+    show unblink
+
+##################################################################################
+
+Открытие главного меню мода, при включении игры, как в (БКРР).
+Делается это через фильтр, пример кода для настройки фильтра:
+
+init python:
+
+    filters["default1"] = u"Сюда вписываете фразу, которая должна отображаться в
+меню фильтров, к примеру; (Запуск меню из мода «Поездка Лены» при включении
+игры.)"
+
+python early:
+
+    def default1():
+        rgsn = renpy.game.script.namemap
+        rgsn["splashscreen"] = rgsn["label открывающий Ваш мод."]
+
+##################################################################################
+
+init:
+
+    image название = SnowBlossom(
+    '',                           # Путь, до изображения, который будет являться частицей.
+    count=1000,                   # Количество частиц (помним про ограничение renpy по памяти!!).
+    border=50,                    # Сколько пикселей? За экраном считаются экраном.
+    xspeed=(200, 500),            # Скорость по оси х (если диапазон то рандомное из диапазона).
+    yspeed=(400, 900),            # Скорость по оси у (если диапазон то рандомное из диапазона).
+    start=0,                      # Задержка в секундах, перед появлением новых частиц.
+    fast=False,                   # Появляются ли частицы в центре экрана?
+    horizontal=False              # Появляются частицы слева/права при True, сверху снизу при False.
+    )
+
+    # Берём отрицательную скорость для вывода снизу/справа.
+    # Вызов.
+
+    show название
+
+##################################################################################
+
+Краткий гайд по лепке спрайтов.
+
+image сокращённое название персонажа = ConditionSwitch( "persistent.sprite_time=='sunset'",im.MatrixColor( im.Composite((900,1080), (0,0), "путь к телу спрайта",(0,0), "путь к одежде",(0,0), "путь к эмоции"), im.matrix.tint(0.94, 0.82, 1.0) ), "persistent.sprite_time=='night'",im.MatrixColor( im.Composite((900,1080), (0,0), "путь к телу",(0,0), "путь к одежде",(0,0), "путь к эмоции"), im.matrix.tint(0.63, 0.78, 0.82) ), True,im.Composite((900,1080), (0,0), "путь к телу",(0,0), "путь к одежде",(0,0), "путь к эмоции") )
+
+##################################################################################
+
+Как вписать шрифт, персонажу?
+
+$ dim = Character("Дима", color="#CD853F", what_color = "#E2C778", drop_shadow = [ (2, 2) ], drop_shadow_color = "#000", what_drop_shadow =[ (2, 2) ], what_drop_shadow_color = "#000")
+
+А нам, нужно сделать имя персонажа со своим шрифтом. Тогда вставляем, font="mods/название мода/папка со шрифтом/шрифт.ttf" в конец строчки персонажа, что-бы получилось вот так:
+
+$ dim = Character("Дима", color="#CD853F", what_color = "#E2C778", drop_shadow = [ (2, 2) ], drop_shadow_color = "#000", what_drop_shadow =[ (2, 2) ], what_drop_shadow_color = "#000", font = "mods/primer/fonts/Mono.ttf")
+
+##################################################################################
+
+Для выведения на экран монитора, необходимо прописать две команды:
+
+$ backdrop = "days"
+$ new_chapter(1, u"Мой мод. День первый.")
+
+Где:
+backdrop - фон с монитором, 1 - номер дня, который будет показан на мониторе.
+Текст - то, как будет называться сохранение.
+
+Фонов (backdrop) в игре всего (5);
+
+$ backdrop = "days"    # Просто монитор.
+$ backdrop = "un"      # Монитор с проплывающей Леной.
+$ backdrop = "us"      # Монитор с проплывающей Ульяной.
+$ backdrop = "sl"      # Монитор с проплывающей Славей.
+$ backdrop = "dv"      # Монитор с проплывающей Алисой.
+
+##################################################################################
+
+Добавление вашего спрайта с изменением времени суток.
+
+image Имя спрайта, можно несколько слов, как в оригинале = ConditionSwitch("persistent.sprite_time=='sunset или night'", im.MatrixColor(im.Composite((Пиксели, горизонталь, Пиксели, вертикаль), (0, 0), 'Путь к файлу'), im.matrix.tint(0.94, 0.82, 1.0/0.63, 0.78, 0.82 вечер или ночь))
+
+А теперь обратите внимание, на цифры в скобках, после ( im.matrix.tint ) Эти цифры отвечают, за время суток спрайта.
+
+0.83, 0.88, 0.92 - day/день
+0.94, 0.82, 1.0 - sunset/вечер
+0.63, 0.78, 0.82 - night/ночь
+
+##################################################################################
+
+Как делается обычное меню для какого то выбора.
+Чтобы этот выбор потом запомнился.
+
+В (init:). Допустим создадим переменную с названием yes1.
+На след строку после ($ mod... и так далее), вставляйте следующее;
+
+$ yes1 = False
+$ - Обязательный знак.
+yes1 - Название переменной (вставите своё).
+False - значение, то есть - нет. Есть и True, но о них поговорим попозже.
+
+Потом в нужный label вставляем;
+
+    menu:
+        "Шоколад":
+            th "okay"
+    $ yes1 = True
+        "Вафля":
+            th "okay"
+
+Это наше меню.
+Тут будет два варианта ответа - Шоколад, и Вафля.
+Выбираешь (шоколад) - тебе отвечает okay, и переменная yes1 меняется на True, то есть правда, (True - Правда, False - Ложь).
+Выбираешь (вафлю) - тебе просто отвечает okay, и всё.
+Потом в label, где Вам нужно сделать проверку, что же ты выбрал, вставляем.
+
+    if yes1 == True:
+        "Ты выбрал шоколад."
+    else:
+        "Ты выбрал вафлю."
+
+То есть, когда игрок выбирал шоколад - переменная yes1 становилась True, если вафлю, то переменная yes1 оставалась False. Сейчас идёт проверка, если у игрока переменная yes1 == True, то он выбрал шоколад, так как, только при выборе шоколада, мы задавали переменной значение True. else, что в переводе означает по другому, (в другом случае, иначе) и так далее, то есть, если у игрока переменная yes1 не ровняется на True, значит он выбрал вафлю. Так как, при выборе вафли мы задали только сообщение okay. В таком случае переменная продолжает оставаться False, так как, мы её задавали вначале.
+Учтите, если Вы в начале пропишите $ yes1 = True, то стандартное значение переменной будет True. И тогда проверку нужно будет делать наоборот.
+
+##################################################################################
+
+Если вы хотите сделать свой экран, где идут диалоги, то;
+Для начала, копируем стандартный экран (say) из "БЛ".
+
+screen say:
+
+window background None id "window":
+
+$ timeofday = persistent.timeofday
+
+if persistent.font_size == "large":
+
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/backward_%s.png") xpos 38 ypos 924 action ShowMenu("text_history")
+
+add get_image("gui/dialogue_box/"+timeofday+"/dialogue_box_large.png") xpos 174 ypos 866
+
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/hide_%s.png") xpos 1508 ypos 883 action HideInterface()
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/save_%s.png") xpos 1567 ypos 883 action ShowMenu('save')
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/menu_%s.png") xpos 1625 ypos 883 action ShowMenu('game_menu_selector')
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/load_%s.png") xpos 1682 ypos 883 action ShowMenu('load')
+
+if not config.skipping:
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/forward_%s.png") xpos 1768 ypos 924 action Skip()
+else:
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/fast_forward_%s.png") xpos 1768 ypos 924 action Skip()
+
+text what id "what" xpos 194 ypos 914 xmaximum 1541 size 35 line_spacing 1
+if who:
+text who id "who" xpos 194 ypos 877 size 35 line_spacing 1
+
+elif persistent.font_size == "small":
+
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/backward_%s.png") xpos 38 ypos 949 action ShowMenu("text_history")
+
+add get_image("gui/dialogue_box/"+timeofday+"/dialogue_box.png") xpos 174 ypos 916
+
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/hide_%s.png") xpos 1508 ypos 933 action HideInterface()
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/save_%s.png") xpos 1567 ypos 933 action ShowMenu('save')
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/menu_%s.png") xpos 1625 ypos 933 action ShowMenu('game_menu_selector')
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/load_%s.png") xpos 1682 ypos 933 action ShowMenu('load')
+
+if not config.skipping:
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/forward_%s.png") xpos 1768 ypos 949 action Skip()
+else:
+imagebutton auto get_image("gui/dialogue_box/"+timeofday+"/fast_forward_%s.png") xpos 1768 ypos 949 action Skip()
+
+text what id "what" xpos 194 ypos 964 xmaximum 1541 size 28 line_spacing 2
+if who:
+text who id "who" xpos 194 ypos 931 size 28 line_spacing 2
+
+Убрать get_image и скобки между и вокруг пути файла. Далее настраиваете сам путь к файлам (кнопки, фон для диалога).
+При желании можно убрать $ timeofday = persistent.timeofday, если Вы не планируете смену диалогового окна в зависимости,
+от времени суток.
+Далее заменяем экран (say), на свой экран.
+
+init python:
+renpy.display.screen.screens[("say",None)] = renpy.display.screen.screens[("your_say",None)]
+
+Где (your_say) - Ваш экран. Также можно вставить и в label, но перед командой поставьте $.
+
+##################################################################################
+
+Как быстрее вставлять файлы (музыку, звуки, картинки) в мод.
+Но если при таком добавлении будет выскакивать трейс с ошибкой, что такой то
+файл не объявлен, то придётся писать (define) вместо ($) в начале строки.
+
+init:
+
+    $ *Тут название переменной* = *Пишите путь в папку, где располагаются Ваши объекты, в конце пишем ещё один слэш* (можно сделать отдельно для каждого типа файлов, но тогда придётся создавать отдельные папки).
+
+    image *Название* = *Название переменной выше* + *Название файла с расширением*
+
+С музыкой/звуками:
+
+    $ *Название* = *Название переменной* + *Название файла с расширением*
+
+##################################################################################
+
+Запуск музыки с определённого момента.
+
+    play music "<from 121.5 to 155.5>mods/название мода/папка music/весёлая_музыка.mp3" fadein 3
+
+<(from) от 121.5 секунды (to) до 155.5 секунды> путь к файлу и по желанию (fadein 3) начало воспроизведения за 3 секунды.
+
+##################################################################################
+
+Вы 100% видели, как в оригинальной игре, да и некоторых модах, при прохождении концовок появляется картинка а-ля `Achievement Completed`. И хотели бы, в свой мод такую же.
+
+Для этого, в нужном Вам месте вставьте следующие команды;
+
+    play sound sfx_achievement
+
+    show my_achievement at achievement_trans
+    with dspr
+
+    $ renpy.pause(3, hard=True)
+
+    hide my_achievement
+
+Где my_achievement - Ваша картинка с достижением.
+
+##################################################################################
+
+    show sprite_name:
+        linear 1.0 zoom 0.75
+
+    "Диалог"
+
+    show sprite_name:
+        zoom 0.75
+        linear 1.0 zoom 1.0
+
+Где linear 1.0 - время зуммирования (сейчас одна секунда).
+
+Плавное передвижение спрайта.
+
+Влево:
+
+    show bla bla:
+        ease 2.0 xalign -2.0
+
+Вправо:
+
+    show bla bla:
+        ease 2.0 xalign 2.0
+
+Действия будут происходить, за две секунды.
+
+##################################################################################
+
+Появление окошка с надписью, над диалоговым полем.
+
+    $ renpy.notify("Выбор...")

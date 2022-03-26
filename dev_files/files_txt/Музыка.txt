@@ -1,0 +1,110 @@
+#############################################################################################
+Release:
+# Файл „изменён“ - улучшен.
+Версия файла 2.1
+Автор улучшенной версии, Максим Райс.
+#############################################################################################
+_____________________________________________________________________________________________
+# Список музыки:-----------------------------------------------------------------------------
+                                                    |#
+music_list['410']                                   |# Песня про автобус №410.
+                                                    |#
+music_list['a_promise_from_distant_days']           |#
+music_list['a_promise_from_distant_days_v2']        |#
+music_list['afterword']                             |#
+music_list['always_ready']                          |#
+music_list['awakening_power']                       |#
+                                                    |#
+music_list['blow_with_the_fires']                   |# Музыка из главного меню.
+                                                    |#
+music_list['confession_oboe']                       |#
+                                                    |#
+music_list['dance_of_fireflies']                    |#
+music_list['dinner_horn_processed']                 |# Горн в столовую.
+music_list['doomed_to_be_defeated']                 |# Момент, когда происходит дичь.
+music_list['door_to_nightmare']                     |#
+music_list['doubt_everyone']                        |# *|Не работает|*
+music_list['drown']                                 |#
+                                                    |#
+music_list['eat_some_trouble']                      |#
+music_list['eternal_longing']                       |#
+music_list['everlasting_summer']                    |#
+music_list['everyday_theme']                        |#
+                                                    |#
+music_list['faceless']                              |#
+music_list['farewell_to_the_past_edit']             |# Короткая.
+music_list['farewell_to_the_past_full']             |# Полная версия.
+music_list['forest_maiden']                         |#
+music_list['feeling_good']                          |#
+                                                    |#
+music_list['gentle_predator']                       |#
+music_list['get_to_know_me_better']                 |#
+music_list['glimmering_coals']                      |#
+music_list['goodbye_home_shores']                   |#
+                                                    |#
+music_list['heather']                               |#
+                                                    |#
+music_list['i_dont_blame_you']                      |#
+music_list['i_want_to_play']                        |#
+music_list['into_the_unknown']                      |#
+                                                    |#
+music_list['just_think']                            |#
+                                                    |#
+music_list['kostry']                                |#
+                                                    |#
+music_list['lets_be_friends']                       |#
+music_list['lightness']                             |# Нормальная.
+music_list['lightness_radio_bus']                   |# Музыка из радио, в автобусе.
+                                                    |#
+music_list['meet_me_there']                         |#
+music_list['memories']                              |#
+music_list['memories_piano_outdoors']               |# Игра на пианино, слышится из-за двери.
+music_list['miku_song_flute']                       |# Песня Мику без голоса.
+music_list['miku_song_voice']                       |# Песня Мику с голосом.
+music_list['my_daily_life']                         |#
+music_list['mystery_girl_v2']                       |# Mystery Girl.
+                                                    |#
+music_list['no_tresspassing']                       |#
+                                                    |#
+music_list['opening']                               |#
+music_list['orchid']                                |#
+                                                    |#
+music_list['pile']                                  |#
+music_list['pioneer2_loudspeaker_tape']             |# *|Не работает|*
+                                                    |#
+music_list['raindrops']                             |#
+music_list['reflection_on_water']                   |#
+music_list['reminiscences']                         |#
+music_list['revenga']                               |#
+                                                    |#
+music_list['scarytale']                             |#
+music_list['she_is_kind']                           |#
+music_list['silhouette_in_sunset']                  |#
+music_list['smooth_machine']                        |#
+music_list['so_good_to_be_careless']                |#
+music_list['sparkles']                              |#
+music_list['sunny_day']                             |#
+music_list['sweet_darkness']                        |#
+                                                    |#
+music_list['take_me_beautifully']                   |#
+music_list['that_s_our_madhouse']                   |#
+music_list['timid_girl']                            |#
+music_list['torture']                               |#
+music_list['trapped_in_dreams']                     |#
+music_list['tried_to_bring_it_back']                |#
+music_list['two_glasses_of_melancholy']             |#
+                                                    |#
+music_list['vzveites_kostrami']                     |# Взвейтесь кострами.
+                                                    |#
+music_list['waltz_of_doubts']                       |#
+music_list['went_fishing_caught_a_girl']            |#
+music_list['what_do_you_think_of_me']               |#
+                                                    |#
+music_list['you_lost_me']                           |#
+music_list['you_won_t_let_me_down']                 |#
+music_list['your_bright_side']                      |#
+                                                    |#
+# ['everlasting_summer_op_edition']                   |# Этой мелодии почему-то в списке нет, но это, музыка из видео в конце пролога, перед первым днём.
+______________________________________________________
+
+# ср,09/февраля/2022., 02:32 AM., Закончен.
