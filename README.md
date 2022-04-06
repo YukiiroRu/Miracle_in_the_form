@@ -15,13 +15,13 @@ _Чудо в форме._
  [![​Open VSX Rating​](https://img.shields.io/open-vsx/rating/LuqueDaniel/languague-renpy?style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
  ![​Open VSX Downloads​](https://img.shields.io/open-vsx/dt/LuqueDaniel/languague-renpy?style=flat-square)
 
- ___Преобразованный из___ [​Ren'Py языковая поддержка в редакторе Atom​.](https://github.com/renpy/language-renpy)
+ _Преобразованный из_ [​Ren'Py языковая поддержка в редакторе Atom​.](https://github.com/renpy/language-renpy)
 
  Не стесняйтесь [​способствовать](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), разветвите это и отправьте запрос, на извлечение. :smile:
 
 ## Интересное.
 
-___Примеры языка Ren'Py в редакторе [Visual Studio Code](https://code.visualstudio.com/).___
+_Примеры языка Ren'Py в редакторе [Visual Studio Code](https://code.visualstudio.com/)._
 
 ### Подсветка синтаксиса.
 
@@ -73,10 +73,10 @@ ___Примеры языка Ren'Py в редакторе [Visual Studio Code](h
 
 ## Интегрируйте Visual Studio Code, в качестве редактора кода для Ren'Py.
 
-___Вы можете скопировать___ [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) ___файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py.___
+_Вы можете скопировать_ [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) _файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py._
 
 ## Благодарности.
 
-- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) ___Всем участникам.___
-- [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) ___Создатель плагина.___
+- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) _Всем участникам._
+- [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
