@@ -62,4 +62,4 @@
 
 ## Благодарность.
 
-- [​language-renpy​](https://github.com/renpy/language-renpy) ***Всех участников.***
+- [​language-renpy​](https://github.com/renpy/language-renpy) ***Всем участникам.***
