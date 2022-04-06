@@ -73,7 +73,7 @@ ___Примеры языка Ren'Py в редакторе [Visual Studio Code](h
 
 ## Интегрируйте Visual Studio Code, в качестве редактора кода для Ren'Py.
 
-***Вы можете скопировать*** [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) ***файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py.***
+___Вы можете скопировать___ [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) ___файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py.___
 
 ## Благодарности.
 
