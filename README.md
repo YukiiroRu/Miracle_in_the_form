@@ -17,7 +17,7 @@
 
  ***Преобразованный из**​* [​Ren'Py языковая поддержка в редакторе Atom​](https://github.com/renpy/language-renpy)
 
- Feel free to [​contribute​](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), fork this and send a pull request. ​:​smile​:
+ Не стесняйтесь [​способствовать](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), fork this and send a pull request. ​:​smile​:
 
 ## Интересное.
 
