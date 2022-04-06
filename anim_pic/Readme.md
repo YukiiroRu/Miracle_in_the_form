@@ -5,8 +5,7 @@
 
 ### Пример кода, для данного эффекта из оригинального кода игры.
 
-'''
-
+```
 image unblink:
     contains:
        "anim blink_up"
@@ -16,7 +15,5 @@ image unblink:
         "anim blink_down"
         xalign 0 yalign 0
         ease 1.0 pos (0,1080)
-
-'''
-
+```
 Изменённая версия есть в файле *resource_s.rpy
