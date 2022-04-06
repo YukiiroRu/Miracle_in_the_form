@@ -80,3 +80,4 @@ _Вы можете скопировать_ [​`Visual Studio Code.edit.py`​
 - [Язык-Ren'Py​](https://github.com/renpy/language-renpy) _Всем участникам._
 - [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
+[Вверх.](ancour)
