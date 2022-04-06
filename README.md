@@ -38,9 +38,9 @@
 
 > При наведении курсора мыши на Ren'Py или определяемое пользователем ключевое слово отобразится исходный файл/местоположение выбранного элемента, а также документация, если таковая имеется. Щелчок по местоположению имени файла приведет к переходу к этому документу и позиции.
   
- ​###​ ​Go To Definition 
+### Переход к определению.
   
- ​>​ Adds support for right-click Go To Definition (F12), which will jump to the selected keyword's source. 
+>​ Adds support for right-click Go To Definition (F12), which will jump to the selected keyword's source. 
   
  ​###​ ​Signature Help 
   
