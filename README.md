@@ -1,3 +1,4 @@
+<a id="anchor"></a>
 # Miracle in the form.
 
 _Чудо в форме._
