@@ -27,11 +27,11 @@
 ###​ ​Document Color.
 
 ![​colors​](https://user-images.githubusercontent.com/12246002/137429939-a813bc82-e067-4306-9d4b-9d3fa064b1b6.gif)
-  
- ​>​ Displays a color block next to detected colors in your script and allows you to pick new colors with a click. 
-  
- ​###​ ​Hover 
-  
+
+>​ Displays a color block next to detected colors in your script and allows you to pick new colors with a click. 
+
+###​ ​Hover.
+
  ​![​hover​](https://user-images.githubusercontent.com/12246002/137430452-3ae9e16a-6bd9-474b-837c-f19040a92766.gif) 
   
  ​>​ Hovering over a Ren'Py or user-defined keyword will display the selected item's source file/location as well as documentation if available. Clicking the filename location will jump to that document and position. 
