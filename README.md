@@ -75,7 +75,7 @@
 
 ***Вы можете скопировать*** [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) ***файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py.***
 
-## Благодарность.
+## Благодарности.
 
 - [Язык-Ren'Py​](https://github.com/renpy/language-renpy) ***Всем участникам.***
 - [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) ***Создатель плагина.***
