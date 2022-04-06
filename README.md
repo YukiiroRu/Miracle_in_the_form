@@ -77,5 +77,5 @@
 
 ## Благодарность.
 
-- [​language-renpy​](https://github.com/renpy/language-renpy) ***Всем участникам.***
+- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) ***Всем участникам.***
 - [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) ***Создатель плагина.***
