@@ -50,8 +50,8 @@
   
 ![​diagnostics​](https://user-images.githubusercontent.com/12246002/137431018-978530fd-4af4-4d10-b72a-fe852a5ddffd.gif)
 
-> Adds support for detection of issues with indentation or invalid filenames/variable names and marks them as errors or warnings in the editor.
-  
+> Добавлена поддержка обнаружения проблем с отступами или недопустимыми именами файлов/имён переменных и помечает их как ошибки или предупреждения в редакторе.
+
  ​###​ ​Document Symbols 
   
  ​>​ Document Symbols are displayed in the Outline window in the sidebar. 
