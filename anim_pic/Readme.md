@@ -5,7 +5,7 @@
 
 ### Пример кода, для данного эффекта из оригинального кода.
 
->image unblink:
+> image unblink:
 
     contains:
         "anim blink_up"
