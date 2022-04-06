@@ -16,4 +16,5 @@ image unblink:
         xalign 0 yalign 0
         ease 1.0 pos (0,1080)
 ```
+
 Изменённая версия есть в файле *resource_s.rpy
