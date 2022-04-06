@@ -6,6 +6,8 @@
 
 ## Интересное.
 
+***Язык Ren'Py в редакторе Visual
+
 ### Подсветка синтаксиса.
 
 ![syntax](https://user-images.githubusercontent.com/1286535/40073232-9509274a-5876-11e8-98ff-e14b46bfab8a.gif)
