@@ -6,7 +6,7 @@
 
 ## Интересное.
 
-***Язык Ren'Py в редакторе [Visual Studio Code]().***
+***Язык Ren'Py в редакторе [Visual Studio Code](https://code.visualstudio.com/).***
 
 ### Подсветка синтаксиса.
 
