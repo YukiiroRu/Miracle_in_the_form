@@ -19,28 +19,28 @@
 > Пользовательские фрагменты кода, убыстряют написание кода в несколько раз. Можно писать и свои, для использования локально на своём ПК. И делиться ими с другими.
 
 ### ​Completion.
-  
+
 ![​completion​](https://user-images.githubusercontent.com/12246002/137429951-63043065-57c7-4fb2-8bc3-27f69616f439.gif) 
-  
+
 >​ Displays a pop-up auto-complete menu with context-appropriate choices as you type your script or enter screen properties. 
-  
+
 ###​ ​Document Color.
-  
+
 ![​colors​](https://user-images.githubusercontent.com/12246002/137429939-a813bc82-e067-4306-9d4b-9d3fa064b1b6.gif) 
-  
+
 >​ Displays a color block next to detected colors in your script and allows you to pick new colors with a click. 
-  
+
 ###​ ​Hover.
-  
+
 ![​hover​](https://user-images.githubusercontent.com/12246002/137430452-3ae9e16a-6bd9-474b-837c-f19040a92766.gif) 
-  
- ​>​ Hovering over a Ren'Py or user-defined keyword will display the selected item's source file/location as well as documentation if available. Clicking the filename location will jump to that document and position. 
-  
- ​###​ ​Go To Definition 
-  
- ​>​ Adds support for right-click Go To Definition (F12), which will jump to the selected keyword's source. 
-  
- ​###​ ​Signature Help 
+
+>​ Hovering over a Ren'Py or user-defined keyword will display the selected item's source file/location as well as documentation if available. Clicking the filename location will jump to that document and position. 
+
+###​ ​Go To Definition.
+
+>​ Adds support for right-click Go To Definition (F12), which will jump to the selected keyword's source. 
+
+###​ ​Signature Help 
   
  ​>​ Shows the documentation pop-up as you enter a function's arguments. 
   
