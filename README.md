@@ -58,7 +58,7 @@
 
 ## Интегрируйте Visual Studio Code в качестве редактора кода в Ren'Py.
 
-***Вы можете скопировать.*** [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) file that is available at the root of this repository to the root of your project directory. This will add VSCode (or VSCodium) to the list of text editors in Ren'Py. 
+***Вы можете скопировать.*** [​`Visual Studio Code.edit.py`​](https://raw.githubusercontent.com/LuqueDaniel/vscode-language-renpy/master/Visual%20Studio%20Code.edit.py) ***Файл, доступный в корне этого репозитория, в корень вашего каталога проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов в Ren'Py.***
   
 ## Thanks To.
   
