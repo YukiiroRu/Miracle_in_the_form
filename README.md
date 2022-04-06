@@ -15,7 +15,7 @@
  [![​Open VSX Rating​](https://img.shields.io/open-vsx/rating/LuqueDaniel/languague-renpy?style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
  ![​Open VSX Downloads​](https://img.shields.io/open-vsx/dt/LuqueDaniel/languague-renpy?style=flat-square)
 
- ***Преобразованный из**​* [​Ren'Py языковая поддержка в редакторе Atom​](https://github.com/renpy/language-renpy)
+ ***Преобразованный из**​* [​Ren'Py языковая поддержка в редакторе Atom​.](https://github.com/renpy/language-renpy)
 
  Не стесняйтесь [​способствовать](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), разветвите это и отправьте запрос, на извлечение. :smile:
 
