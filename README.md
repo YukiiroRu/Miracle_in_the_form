@@ -1,6 +1,6 @@
 # Miracle in the form.
 
-Чудо в форме.
+***Чудо в форме.***
 
 > Мод, для игры „Бесконечное лето“. Написан Максимом Райсом.
 
@@ -12,7 +12,7 @@
 
 > Подсветка синтаксиса в зависимости от используемой темы оформления. В этом случае. [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme).
 
-### Snippets: пользовательские фрагменты кода.
+### Сниппеты: пользовательские фрагменты кода.
 
 ![snippets](https://user-images.githubusercontent.com/1286535/40073650-b999c5dc-5877-11e8-8910-596f9e94b281.gif)
 
