@@ -77,5 +77,5 @@ ___Вы можете скопировать___ [​`Visual Studio Code.edit.py
 
 ## Благодарности.
 
-- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) ***Всем участникам.***
-- [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) ***Создатель плагина.***
+- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) ___Всем участникам.___
+- [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) ___Создатель плагина.___
