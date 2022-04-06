@@ -37,20 +37,20 @@
 ![​hover​](https://user-images.githubusercontent.com/12246002/137430452-3ae9e16a-6bd9-474b-837c-f19040a92766.gif)
 
 > При наведении курсора мыши на Ren'Py или определяемое пользователем ключевое слово отобразится исходный файл/местоположение выбранного элемента, а также документация, если таковая имеется. Щелчок по местоположению имени файла приведет к переходу к этому документу и позиции.
-  
+
 ### Переход к определению.
 
 > Добавлена поддержка щелчка правой кнопкой мыши. Переход к определению (F12), которое приведёт, к переходу, к источнику выбранного ключевого слова.
   
- ​###​ ​Signature Help 
+### Справка по подписи.
+
+> Показывает всплывающее окно документации при вводе аргументов функции.
+
+### Диагностика.
   
- ​>​ Shows the documentation pop-up as you enter a function's arguments. 
-  
- ​###​ ​Diagnostics 
-  
- ​![​diagnostics​](https://user-images.githubusercontent.com/12246002/137431018-978530fd-4af4-4d10-b72a-fe852a5ddffd.gif) 
-  
- ​>​ Adds support for detection of issues with indentation or invalid filenames/variable names and marks them as errors or warnings in the editor. 
+![​diagnostics​](https://user-images.githubusercontent.com/12246002/137431018-978530fd-4af4-4d10-b72a-fe852a5ddffd.gif)
+
+> Adds support for detection of issues with indentation or invalid filenames/variable names and marks them as errors or warnings in the editor.
   
  ​###​ ​Document Symbols 
   
