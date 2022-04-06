@@ -6,6 +6,8 @@ _Чудо в форме._
 
 > Мод, для игры „Бесконечное лето“. Написан Максимом Райсом.
 
+---
+
 ### Язык Ren'Py для редактора Visual Studio Code.
   
 Добавляет подсветку синтаксиса и фрагменты кода для [​Ren'Py​](https://www.renpy.org/) в редактор.
@@ -23,13 +25,13 @@ _Чудо в форме._
 
 ## Интересное.
 
-_Примеры языка Ren'Py в редакторе [Visual Studio Code](https://code.visualstudio.com/)._
+_Примеры языка Ren'Py в редакторе [Visual Studio Code.](https://code.visualstudio.com/)_
 
 ### Подсветка синтаксиса.
 
 ![syntax](https://user-images.githubusercontent.com/1286535/40073232-9509274a-5876-11e8-98ff-e14b46bfab8a.gif)
 
-> Подсветка синтаксиса в зависимости от используемой темы оформления. В этом случае. [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme).
+> Подсветка синтаксиса в зависимости от используемой темы оформления. В этом случае [One Dark Pro.](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 ### Сниппеты: пользовательские фрагменты кода.
 
@@ -53,7 +55,7 @@ _Примеры языка Ren'Py в редакторе [Visual Studio Code](htt
 
 ![​hover​](https://user-images.githubusercontent.com/12246002/137430452-3ae9e16a-6bd9-474b-837c-f19040a92766.gif)
 
-> При наведении курсора мыши на Ren'Py или определяемое пользователем ключевое слово отобразится исходный файл/местоположение выбранного элемента, а также документация, если таковая имеется. Щелчок по местоположению имени файла приведет к переходу к этому документу и позиции.
+> При наведении курсора мыши на Ren'Py или определяемое пользователем ключевое слово отобразится исходный файл/местоположение выбранного элемента, а также документация, если таковая имеется. Щелчок по местоположению имени файла приведёт к переходу к этому документу и позиции.
 
 ### Переход к определению.
 
@@ -79,7 +81,7 @@ _Вы можете скопировать_ [​`Visual Studio Code.edit.py`​
 
 ## Благодарности.
 
-- [Язык-Ren'Py​](https://github.com/renpy/language-renpy) _Всем участникам._
+- [Язык - Ren'Py​](https://github.com/renpy/language-renpy) _Всем участникам._
 - [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
 [Вверх.](#anchor)
