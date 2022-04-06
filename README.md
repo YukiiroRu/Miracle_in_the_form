@@ -20,13 +20,13 @@
 
 ###​ ​Completion.
 
- ​![​completion​](https://user-images.githubusercontent.com/12246002/137429951-63043065-57c7-4fb2-8bc3-27f69616f439.gif) 
-  
- ​>​ Displays a pop-up auto-complete menu with context-appropriate choices as you type your script or enter screen properties. 
-  
- ​###​ ​Document Color 
-  
- ​![​colors​](https://user-images.githubusercontent.com/12246002/137429939-a813bc82-e067-4306-9d4b-9d3fa064b1b6.gif) 
+![​completion​](https://user-images.githubusercontent.com/12246002/137429951-63043065-57c7-4fb2-8bc3-27f69616f439.gif)
+
+>​ Displays a pop-up auto-complete menu with context-appropriate choices as you type your script or enter screen properties.
+
+###​ ​Document Color.
+
+![​colors​](https://user-images.githubusercontent.com/12246002/137429939-a813bc82-e067-4306-9d4b-9d3fa064b1b6.gif)
   
  ​>​ Displays a color block next to detected colors in your script and allows you to pick new colors with a click. 
   
