@@ -6,6 +6,7 @@
 ### Пример кода, для данного эффекта из оригинального кода.
 
 >image unblink:
+
     contains:
         "anim blink_up"
         xalign 0 yalign 0
