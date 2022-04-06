@@ -40,7 +40,7 @@
   
 ### Переход к определению.
   
->​ Adds support for right-click Go To Definition (F12), which will jump to the selected keyword's source. 
+> Добавлена поддержка щелчка правой кнопкой мыши. Перейди к Определению (F12), которое приведёт, к переходу, к источнику выбранного ключевого слова.
   
  ​###​ ​Signature Help 
   
