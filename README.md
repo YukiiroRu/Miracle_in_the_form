@@ -13,12 +13,12 @@ Adds syntax highlight and snippets for [​Ren'Py​](https://www.renpy.or
  ​![​Visual Studio Marketplace Installs​](https://img.shields.io/visual-studio-marketplace/i/luquedaniel.languague-renpy?style=flat-square)
  ​-​ [![​Open VSX Version​](https://img.shields.io/open-vsx/v/LuqueDaniel/languague-renpy?label=Open%20VSX&style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
  ​[![​Open VSX Rating​](https://img.shields.io/open-vsx/rating/LuqueDaniel/languague-renpy?style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
- ​![​Open VSX Downloads​](https://img.shields.io/open-vsx/dt/LuqueDaniel/languague-renpy?style=flat-square) 
+ ​![​Open VSX Downloads​](https://img.shields.io/open-vsx/dt/LuqueDaniel/languague-renpy?style=flat-square)
 
- ***Converted from**​* [​Ren'Py language support in Atom​](https://github.com/renpy/language-renpy) 
+ ***Converted from**​* [​Ren'Py language support in Atom​](https://github.com/renpy/language-renpy)
 
- Feel free to [​contribute​](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), fork this and send a pull request. ​:​smile​: 
-  
+ Feel free to [​contribute​](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), fork this and send a pull request. ​:​smile​:
+
 ## Features.
 
 ## Интересное.
