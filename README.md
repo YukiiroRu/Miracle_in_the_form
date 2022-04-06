@@ -17,9 +17,9 @@
 ![snippets](https://user-images.githubusercontent.com/1286535/40073650-b999c5dc-5877-11e8-8910-596f9e94b281.gif)
 
 > Пользовательские фрагменты кода, убыстряют написание кода в несколько раз. Можно писать и свои, для использования локально на своём ПК. И делиться ими с другими.
- 
- ​###​ ​Completion 
-  
+
+###​ ​Completion.
+
  ​![​completion​](https://user-images.githubusercontent.com/12246002/137429951-63043065-57c7-4fb2-8bc3-27f69616f439.gif) 
   
  ​>​ Displays a pop-up auto-complete menu with context-appropriate choices as you type your script or enter screen properties. 
