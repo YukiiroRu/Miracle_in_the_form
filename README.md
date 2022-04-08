@@ -4,13 +4,13 @@
 
 _Чудо в форме._
 
-> Мод, для игры „Бесконечное лето“. Написан Максимом Райсом.
+> Модификация, для игры „Бесконечное лето“. Написана Максимом Райсом.
 
 ---
 
 ### Язык Ren'Py для редактора Visual Studio Code.
-  
-Добавляет подсветку синтаксиса и фрагменты кода для [​Ren'Py​](https://www.renpy.org/) в редактор.
+
+Добавляет подсветку синтаксиса и фрагменты кода для [Ren'Py](https://www.renpy.org/) в редактор.
 
  - [![​Visual Studio Marketplace Version​](https://img.shields.io/visual-studio-marketplace/v/luquedaniel.languague-renpy?label=Visual%20Studio%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy)
  [![​Visual Studio Marketplace Rating​](https://img.shields.io/visual-studio-marketplace/r/luquedaniel.languague-renpy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy&ssr=false#review-details)
