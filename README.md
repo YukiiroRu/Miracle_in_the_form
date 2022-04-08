@@ -31,7 +31,7 @@ _Примеры языка Ren'Py в редакторе [Visual Studio Code.](ht
 
 ![syntax](https://user-images.githubusercontent.com/1286535/40073232-9509274a-5876-11e8-98ff-e14b46bfab8a.gif)
 
-> Подсветка синтаксиса в зависимости от используемой темы оформления. В этом случае [One Dark Pro.](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+> Подсветка синтаксиса в зависимости от используемой темы оформления. В данном случае [One Dark Pro.](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 ### Сниппеты: пользовательские фрагменты кода.
 
@@ -81,7 +81,7 @@ _Вы можете скопировать_ [​`Visual Studio Code.edit.py`​
 
 ## Благодарности.
 
-- [Язык - Ren'Py​](https://github.com/renpy/language-renpy) _Всем участникам._
-- [Luque Daniel](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
+- [Язык - Ren'Py​.](https://github.com/renpy/language-renpy) _Всем участникам._
+- [Luque Daniel.](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
 [Вверх.](#anchor)
