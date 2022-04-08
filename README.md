@@ -13,7 +13,7 @@ _Чудо в форме._
 Добавляет подсветку синтаксиса и фрагменты кода для [​Ren'Py​](https://www.renpy.org/) в редактор.
 
  - [![​Visual Studio Marketplace Version​](https://img.shields.io/visual-studio-marketplace/v/luquedaniel.languague-renpy?label=Visual%20Studio%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy)
- [![​Visual Studio Marketplace Rating​](https://img.shields.io/visual-studio-marketplace/r/luquedaniel.languague-renpy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy&ssr=false#review-details)
+ [![​Visual Studio Marketplace Rating​ рейтинг](https://img.shields.io/visual-studio-marketplace/r/luquedaniel.languague-renpy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy&ssr=false#review-details)
  ![​Visual Studio Marketplace Installs​](https://img.shields.io/visual-studio-marketplace/i/luquedaniel.languague-renpy?style=flat-square)
  - [![​Open VSX Version​](https://img.shields.io/open-vsx/v/LuqueDaniel/languague-renpy?label=Open%20VSX&style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
  [![​Open VSX Rating​](https://img.shields.io/open-vsx/rating/LuqueDaniel/languague-renpy?style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
