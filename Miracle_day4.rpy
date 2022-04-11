@@ -1,2 +1,1 @@
-Label:
-return
+Label Miracle_day4:
