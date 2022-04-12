@@ -84,4 +84,7 @@ _Вы можете скопировать_ [`Visual Studio Code.edit.py`](https:
 - [Язык - Ren'Py.](https://github.com/renpy/language-renpy) _Всем участникам._
 - [Luque Daniel.](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
+## Контакты.
+[![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro) Моя страница ВКонтакте.
+
 [Вверх.](#anchor)
