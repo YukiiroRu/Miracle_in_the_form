@@ -8,6 +8,9 @@ _Чудо в форме._
 
 ---
 
+ 
+ ​![​renpy-banner​](https://disk.yandex.ru/i/ZqNSt-Bziou3Rw)
+
 ### Язык Ren'Py для редактора Visual Studio Code.
 
 Добавляет подсветку синтаксиса и фрагменты кода для [Ren'Py](https://www.renpy.org/) в редактор.
