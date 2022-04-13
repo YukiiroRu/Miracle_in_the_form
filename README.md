@@ -8,7 +8,7 @@ _Чудо в форме._
 
 ---
 
- ​![​renpy-banner​](https://github.com/YukiiroRu/Miracle_in_the_form/blob/main/dev_files/logo%20base.png)
+ ​![​renpy-Logo](https://github.com/YukiiroRu/Miracle_in_the_form/blob/main/dev_files/logo%20base.png)
 
 ### Язык Ren'Py для редактора Visual Studio Code.
 
