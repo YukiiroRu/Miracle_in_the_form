@@ -1,4 +1,5 @@
- #​ Compiled Ren'Py files. 
- ​*​.rpyc 
- ​*​.rpyb 
- ​*​.rpymc
+ # Compiled Ren'Py files.
+
+ *.rpyc 
+ *.rpyb 
+ *.rpymc
