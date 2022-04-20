@@ -4,10 +4,10 @@ import sys
 
 import renpy.editor
 
-
 class Editor(renpy.editor.Editor):
 
     has_projects = True
+
 
     def get_code(self):
         """
@@ -34,16 +34,20 @@ class Editor(renpy.editor.Editor):
 
         return code
 
+
     def open(self, filename, line=None, **kwargs):
         if line:
             filename = "{}:{}".format(filename, line)
         self.args.append(filename)
 
+
     def open_project(self, project):
         self.args.append(project)
 
+
     def begin(self, new_window=False, **kwargs):
         self.args = []
+
 
     def end(self, **kwargs):
         self.args.reverse()
@@ -66,7 +70,6 @@ def main():
         e.open(i)
 
     e.end()
-
 
 if __name__ == "__main__":
     main()
