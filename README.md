@@ -15,6 +15,8 @@ _Чудо в форме._
 
 ### Язык Ren'Py в редакторе Visual Studio Code.
 
+ - [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/luquedaniel.languague-renpy?label=Visual%20Studio%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy)
+
 _Примеры языка Ren'Py в редакторе [Visual Studio Code.](https://code.visualstudio.com/)_
 
 ### Подсветка синтаксиса.
