@@ -6,29 +6,14 @@ _Чудо в форме._
 
 > Модификация, для игры „Бесконечное лето“. Написана Максимом Райсом.
 
----
-
  ![renpy-logo](https://github.com/YukiiroRu/Miracle_in_the_form/blob/main/dev_files/logo%20base.png)
 
  - [![GitHub](https://img.shields.io/github/license/YukiiroRu/Miracle_in_the_form?label=%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F&style=for-the-badge)](LICENSE)
  - [![GitHub last commit](https://img.shields.io/github/last-commit/YukiiroRu/Miracle_in_the_form?label=%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5&style=for-the-badge)](https://github.com/YukiiroRu/Miracle_in_the_form/commits/develop)
 
-### Язык Ren'Py для редактора Visual Studio Code.
+Ссылка на официальный сайт движка [Ren'Py.](https://www.renpy.org/) :smile::thumbsup:
 
-Добавляет подсветку синтаксиса и фрагменты кода для [Ren'Py](https://www.renpy.org/) в редактор.
-
- - [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/luquedaniel.languague-renpy?label=Visual%20Studio%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy)
- [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/luquedaniel.languague-renpy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy&ssr=false#review-details)
- ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/luquedaniel.languague-renpy?style=flat-square)
- - [![Open VSX Version](https://img.shields.io/open-vsx/v/LuqueDaniel/languague-renpy?label=Open%20VSX&style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
- [![Open VSX Rating](https://img.shields.io/open-vsx/rating/LuqueDaniel/languague-renpy?style=flat-square)](https://open-vsx.org/extension/LuqueDaniel/languague-renpy)
- ![Open VSX Downloads](https://img.shields.io/open-vsx/dt/LuqueDaniel/languague-renpy?style=flat-square)
-
- _Преобразованный из_ [Ren'Py языковая поддержка в редакторе Atom.](https://github.com/renpy/language-renpy)
-
- Не стесняйтесь [способствовать](https://github.com/LuqueDaniel/vscode-language-renpy/blob/master/Contributing.md), разветвите это и отправьте запрос, на извлечение. :smile::thumbsup:
-
-## Интересное.
+### Язык Ren'Py в редакторе Visual Studio Code.
 
 _Примеры языка Ren'Py в редакторе [Visual Studio Code.](https://code.visualstudio.com/)_
 
@@ -83,11 +68,6 @@ _Примеры языка Ren'Py в редакторе [Visual Studio Code.](ht
 ## Интегрируйте Visual Studio Code, в качестве редактора кода для Ren'Py.
 
 _Вы можете скопировать_ [`Visual Studio Code.edit.py`](https://github.com/YukiiroRu/Miracle_in_the_form/blob/develop/Visual%20Studio%20Code.edit.py) _файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py._
-
-## Благодарности.
-
-- [Язык - Ren'Py.](https://github.com/renpy/language-renpy) _Всем участникам._
-- [Luque Daniel.](https://github.com/LuqueDaniel/vscode-language-renpy) _Создатель плагина._
 
 ## Контакты.
 [![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro) Моя страница ВКонтакте.
