@@ -71,6 +71,6 @@ _Примеры языка Ren'Py в редакторе [Visual Studio Code.](ht
 _Вы можете скопировать_ [`Visual Studio Code.edit.py`](https://github.com/YukiiroRu/Miracle_in_the_form/blob/develop/Visual%20Studio%20Code.edit.py) _файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py._
 
 ## Контакты.
-[![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro) Моя страница ВКонтакте.
+[![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro)
 
 [Вверх.](#anchor)
