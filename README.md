@@ -8,7 +8,6 @@ _Чудо в форме._
 
  ![renpy-logo](https://github.com/YukiiroRu/Miracle_in_the_form/blob/main/dev_files/logo%20base.png)
 
- - [![GitHub](https://img.shields.io/github/license/YukiiroRu/Miracle_in_the_form?label=%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F&style=for-the-badge)](LICENSE)
  - [![GitHub last commit](https://img.shields.io/github/last-commit/YukiiroRu/Miracle_in_the_form?label=%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5&style=for-the-badge)](https://github.com/YukiiroRu/Miracle_in_the_form/commits/develop)
 
 Ссылка на официальный сайт движка [Ren'Py.](https://www.renpy.org/) :smile::thumbsup:
@@ -72,6 +71,6 @@ _Примеры языка Ren'Py в редакторе [Visual Studio Code.](ht
 _Вы можете скопировать_ [`Visual Studio Code.edit.py`](https://github.com/YukiiroRu/Miracle_in_the_form/blob/develop/Visual%20Studio%20Code.edit.py) _файл, доступный в корне репозитория, по приведённой ссылке, в корень вашего каталога/проекта. Это добавит VSCode (или VSCodium) в список текстовых редакторов для Ren'Py._
 
 ## Контакты.
-[![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro) Моя страница ВКонтакте.
+[![VK](https://img.shields.io/badge/-VK-333?style=for-the-badge&logo=Vk&logoColor=27A0D9)](https://vk.com/yukiiro)
 
 [Вверх.](#anchor)
