@@ -7,8 +7,7 @@ _Чудо в форме._
 > Модификация, для игры „Бесконечное лето“. Написана Максимом Райсом.
 
  ![renpy-banner​](https://github.com/YukiiroRu/Miracle_in_the_form/blob/main/dev_files/logo%20base.png)
- 
- ​![​renpy-banner​](https://t.gyazo.com/teams/thetimetunnel/952724864733e37ac528f4c9f3a07cf2.png)
+
  - [![GitHub last commit](https://img.shields.io/github/last-commit/YukiiroRu/Miracle_in_the_form?label=%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5&style=for-the-badge)](https://github.com/YukiiroRu/Miracle_in_the_form/commits/develop)
 
 Ссылка на официальный сайт движка [Ren'Py.](https://www.renpy.org/) :smile::thumbsup:
