@@ -7,7 +7,7 @@ init python:
         # *|На мобильном первый (label) "Mi", а на компьютере "inform".|*
         # *|Если при создании мода, первым пишется (init python:), то ставить знак { $ } перед mods не нужно.|*
 
-    mods["inform"] = u"{font=Miracle_in_the_form/fonts/JetBrainsMono-Regular.ttf}{color=#008000}{size=35}∆ Чудо в форме. ∆{/size}{/color}{/font} | v. 5.57dev"
+    mods["inform"] = u"{font=Miracle_in_the_form/fonts/JetBrainsMono-Regular.ttf}{color=#008000}{size=35}∆ Чудо в форме. ∆{/size}{/color}{/font} | v. 5.22"
 
 # init:
 
@@ -337,8 +337,8 @@ label inform:
     image cgs d2_mt_undressed_2 = "Miracle_in_the_form/cgs_img/d2_mt_undressed_2.jpg"
     image cgs d2_mt_undressed = "Miracle_in_the_form/cgs_img/d2_mt_undressed.jpg"
     image cgs d3_dv_banya = "Miracle_in_the_form/cgs_img/d3_dv_banya.jpg"
-    image cgs d3_el_wash = "Miracle_in_the_form/cgs_img/d3_el_wash.jpg" # Моя переделка.
-    image cgs d4_un_glade = "Miracle_in_the_form/cg_img/d4_un_glade.jpg" # Моя переделка.
+    image cgs d3_el_wash = "Miracle_in_the_form/cgs_img/d4_el_wash.jpg" # Моя переделка.
+    image cgs d4_un_glade = "Miracle_in_the_form/cg_img/d3_un_glade.jpg" # Моя переделка.
     image cgs d2_cs = "Miracle_in_the_form/cgs_img/d2_cs.jpg"
     image cgs d2_cs1 = "Miracle_in_the_form/cgs_img/d2_cs1.jpg"
     image cgs dv_final = "Miracle_in_the_form/cgs_img/dv_final.jpg"
@@ -617,34 +617,34 @@ label inform:
         True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so kiss.png"))
 
     image so tn normal = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal.png"))
 
     image so tn normal1 = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal1.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal1.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn normal1.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal1.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal1.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn normal1.png"))
 
     image so tn surprise = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn surprise.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn surprise.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn surprise.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn surprise.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn surprise.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn surprise.png"))
 
     image so tn smile = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn smile.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn smile.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so tn smile.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn smile.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn smile.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_tn/so tn smile.png"))
 
     image so n normal = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n normal.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n normal.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n normal.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n normal.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n normal.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n normal.png"))
 
     image so n kiss = ConditionSwitch(
-        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n kiss.png"), im.matrix.tint(0.94, 0.82, 1.0)),
-        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n kiss.png"), im.matrix.tint(0.63, 0.78, 0.82)),
-        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so/so n kiss.png"))
+        "persistent.sprite_time == 'sunset'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n kiss.png"), im.matrix.tint(0.94, 0.82, 1.0)),
+        "persistent.sprite_time == 'night'", im.MatrixColor(im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n kiss.png"), im.matrix.tint(0.63, 0.78, 0.82)),
+        True, im.Composite((900, 1080), (0, 0), "Miracle_in_the_form/sprites/normal/so_n/so n kiss.png"))
 
     ## Ещё пионер. ##
 
@@ -721,9 +721,9 @@ label inform:
     define sfx_jingle_normal = "Miracle_in_the_form/sfx/jingle_normal.ogg"
     define sfx_jingle1 = "Miracle_in_the_form/sfx/jingle1.ogg"
     define sfx_jingle_speaker2 = "Miracle_in_the_form/sfx/jingle_speaker2.ogg"
-    define sfx_sex1 = "Miracle_in_the_form/sfx/sex1.mp3"
-    define sfx_sex2 = "Miracle_in_the_form/sfx/sex2.mp3"
-    define sfx_orgasm = "Miracle_in_the_form/sfx/orgasm.mp3"
+    define sfx_sex1 = "Miracle_in_the_form/gui/sound/sex1.mp3"
+    define sfx_sex2 = "Miracle_in_the_form/gui/sound/sex2.mp3"
+    define sfx_orgasm = "Miracle_in_the_form/gui/sound/orgasm.mp3"
     define sfx_Purr = "Miracle_in_the_form/sfx/Purr.ogg"
 
 #===========================================================================================================================#
@@ -743,7 +743,3 @@ label inform:
     #AUTHOR: Добавление видео.
         # *|В папке мода, делается папка, например (movie, video и т.д.) из неё они будут, подгружаться в игру.|*
         # *|Добавление видео, по желанию. Пример того, как это делается; $ renpy.movie_cutscene("Miracle_in_the_form/resources/movie/kryto.ogv"). Ваше видео должно быть в формате ogv или webm, mp4 не подходит.|*
-
-#===========================================================================================================================#
-
-# чт, 03/марта/2022., 08:55 AM., Закончен.
